@@ -1,0 +1,50 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{1.45.2.1 }
+
+\bibitem[Antonello e Maciel 2004]{bandlimit}
+\abntrefinfo{Antonello e Maciel}{ANTONELLO; MACIEL}{2004}
+{ANTONELLO, F.; MACIEL, M. \emph{Bandlimit}.
+[S.l.], 2004. Dispon{\'\i}vel em: $<$http://underlinux.com.br$>$. Acesso em: 10
+  Mar. 2012.}
+
+\bibitem[Bokhari 1995]{bokhari}
+\abntrefinfo{Bokhari}{BOKHARI}{1995}
+{BOKHARI, S.~H. The linux operation system.
+\emph{IEEE Computer Society}, New York, v.~28, n.~8, p. 74 -- 79, Ago. 1995.}
+
+\bibitem[Droms 1997]{droms}
+\abntrefinfo{Droms}{DROMS}{1997}
+{DROMS, R. \emph{Dynamic Host Configuration Protocol}.
+[S.l.], 1997. Dispon{\'\i}vel em:
+  $<$http://ds.internice.net/ds/dspglintdoc.html$>$. Acesso em: 10 Mar. 2012.}
+
+\bibitem[Garver 1970]{garver_sept70}
+\abntrefinfo{Garver}{GARVER}{1970a}
+{GARVER, L.~L. Transmission linear programming.
+\emph{IEEE Transactions on Power Apparatus and Systems}, Rio de Janeiro,
+  PAS-29, n.~9, p. 168--197, Dec. 1970.}
+
+\bibitem[Garver 1970]{llgarver_sept70}
+\abntrefinfo{Garver}{GARVER}{1970b}
+{GARVER, L.~L. Transmission network estimation using linear programming.
+\emph{IEEE Transactions on Power Apparatus and Systems}, São Paulo, PAS-89,
+  n.~7, p. 1688--1697, Sep. 1970.}
+
+\bibitem[Machado e Maia 2007]{machado}
+\abntrefinfo{Machado e Maia}{MACHADO; MAIA}{2007}
+{MACHADO, F.~B.; MAIA, L.~P. \emph{Arquitetura de Sistemas Operacionais}. 4.
+  ed. Rio de Janeiro: LTC, 2007. 105 p.~p.}
+
+\bibitem[Song et al. 2006]{servidores}
+\abntrefinfo{Song et al.}{SONG et al.}{2006}
+{SONG, X.; STINSON, M.; LEE, R.; ALBEE, P. An approach to analyzing the windows
+  and linux security models. In:  \emph{COMPUTER AND INFORMATION SCIENCE, 2006
+  AND 2006 1st IEEE/ACIS INTERNATIONAL WORKSHOP ON COMPONENT-BASED SOFTWARE
+  ENGINEERING, SOFTWARE ARCHITECTURE AND REUSE. ICIS-COMSAR 2006. 5th IEEE/ACIS
+  INTERNATIONAL CONFERENCE}. [S.l.: s.n.], 2006. p. 56 --62.}
+
+\end{thebibliography}

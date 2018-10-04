@@ -1,0 +1,94 @@
+\documentclass[12pt]{abnt}
+\usepackage[T1]{fontenc}
+\setlength{\topskip}{-6cm} % Distância entre a margem superior do quadro do texto e o título do capítulo.
+\setlength{\headsep}{1cm} % Distância entre a margem superior do quadro do texto e o cabeçalho.
+%\setlength{\headheight}{1cm} % Espaço destinado ao cabeçalho
+\setlength{\topmargin}{-1cm} % Distância entre a margem superior da folha e o cabeçalho
+%\setlength{\footskip}{1cm} % Distância entre o texto e a nota de roda-pé.
+\setlength{\textheight}{25cm} % comprimento do texto
+\setlength{\textwidth}{15cm} % comprimento do texto
+%\setlength{\oddsidemargin}{1cm}
+\newcommand{\bs}{\symbol{92}} % barra invertida (backslash)
+
+\begin{document}
+\chapter*{PARA LINUX E WINDOWS}
+Este documento foi idealizado para auxiliar os alunos do PPGEE da UNESP - Câmpus de Ilha Solteira
+para escrever Monografias - Dissertação - Tese.
+
+Idealizado em  06/12/2012 - por:  Emivan Ferreira da Silva (emivan@unemat.br) e Sérgio Azevedo de    Oliveira (grilo@dee.feis.unesp.br)
+
+\section{INSTRUÇÕES}
+   
+Neste leia-me algumas observações sobre o uso deste modelo que deve ser para
+impressão no anverso (frente):
+
+Em primeiro lugar esse modelo foi criado para facilitar o fechamento 
+do trabalho final de monografia, dissertação ou tese, de modo a cumprir 
+as regras da ABNT e também as normas internas da biblioteca da UNESP 
+de Ilha Solteira. 
+Em segundo lugar sugerimos o uso fiel do modelo mantendo sua formatação
+original como capa, folha de rosto e etc. Para isso recomendamos:
+
+\begin{enumerate}
+	\item fazer uma cópia deste modelo para desenvolver seu trabalho e
+	usar este modelo para consulta, nele há exemplos de como fazer citação
+	direta e indireta, figuras, tabelas e etc.
+	\item Teste se o modelo está funcionando corretamente, isso você pode 
+	fazer de duas maneiras:
+	
+	\begin{itemize}
+		\item compilando diretamente o arquivo principal modelo.tex;
+		\item utilizando o Prompt de Comando (cmd) disponível no diretório. 
+		Abrindo ele você pode digitar exec e enter e estará fazendo uma 
+		compilação mais completa (bibtex, mikeindex e etc) e mais rápida.
+		\item no cmd você pode também digitar limpa e clicar em enter 
+		e com isto deletar todos os arquivos auxiliares do seu diretório
+		que o latex criou, como por exemplo .bbl, .aux e etc
+	\end{itemize}
+	
+	\item feita a primeira compilação sem erros. Vá ao seu diretório, que 
+	deve ser uma cópia deste modelo, e inicialmente abra a pasta capa e o 
+	arquivo capa.tex, preencha ali seu nome no lugar de
+	``FULANO DE TAL'', o título do seu trabalho e o ano vigente. Compile 
+	novamente e veja o resultado. Caso não tenha erros siga em frente.
+     \item  abra agora a pasta rosto
+		e no arquivo folharosto.tex faça as alterações necessárias como 
+		foram feitas na capa.
+	\item depois da sua defesa a biblioteca entregará a você por meio de e-mail
+		ou pen drive a ficha catalográfica. Com ela em mãos, você poderá
+		digitar no seu trabalho usando o arquivo ficha\underline~catalografica
+		que está na pasta de mesmo nome, ou simplesmente a coloque como uma figura.
+		Esta ficha catalográfica pode ser obtida também na página da biblioteca cujo endereço
+		está no final deste texto.
+	\item uma folha de aprovação é entregue a você no ato da defesa do seu trabalho.
+		Você deve escanear esta folha como uma figura .eps e substituir a
+		figura folha\underline~aprovacao.eps que se encontra na pasta aprovação.
+	\item observe que o resumo e o abstract possuem o comando \bs{nonident} que é para 
+	não identar e o espaçamento através do \bs{vspace} depois do título e depois 
+	do texto antes das palavras chave, esses espaços devem ser iguais. 
+	infelizmente isto não é default (padrão) ABNT.   
+	\item os outros arquivos podem ser abertos e atualizados com seus escritos
+	     de forma simples. É importante ressaltar que a cada mudança feita no 
+		documento é bom que seja feita a compilação do mesmo para que não
+		acumule erros.
+	\item Agradecimentos, Dedicatória e Epígrafe são textos livres, não precisa obedecer um
+		padrão, o quemos neste exemplo é apenas uma sugestão.
+	\item Lembre: seja a impressão do seu trabalho frente e verso, ou só frente.  A ficha
+		catalográfica deve ser impressa no verso da folha de rosto.
+	\item evite colocar título de capítulo e seção que seja maior do que o que cabe em uma linha, pois nesse caso haverá problemas com o que aparece no cabeçalho.
+	\item porém se tiver que colocar título de capítulo ou seção grandes, há duas maneiras de resolver esse problema:
+	
+	\begin{itemize}
+		\item a primeira está descrita e explicada no começo do capítulo 3 deste exemplo em linhas comentadas;
+		\item a segunda é trocar no preâmbulo deste modelo.tex, mas especificamente em \bs documentclass o comando ruledheader por header. neste caso haverá uma mudança na apresentação do cabeçalho do seu trabalho.
+	\end{itemize}
+	\item observe no capítulo 2, apêndice a e b como fazer o índice remissivo e ainda no capítulo 2 como referenciar uma página onde tem uma informação que você julga importante.
+	\item uma vez terminado o seu trabalho, se quiser gerar um PDF com links de direcionamento. Use e abuse do pacote \bs usepackage[breaklinks]\{hyperref\}  e de seu auxiliar \bs hypersetup\{colorlinks,citecolor=blue,filecolor=yellow,link-\\color=red,urlcolor=green,pdfnewwindow\} colocados no preâmbulo do modelo.tex, depois de gerado o PDF de sua preferência é só comentá-los novamente.
+	\item para os usuários de LINUX vários desses pacotes deixados na pasta deste modelo são desnecessários, cabe ao usuário identificá-los e deletá-los (se quiser), se não quiser fazer isso, não faz mal, o modelo continuará funcionando do mesmo jeito.
+\end{enumerate}
+
+Para finalizar esse leia-me, consulte sempre a página\\ http://bibliotecafe-ilhasolteira.blogspot.com.br/p/servicos-oferecidos.html\\
+nela haverá sempre algo para ajudar a escrever de forma correta o seu trabalho no que diz respeito as normas da ABNT. Por exemplo, as referências precisam de grande atenção nos detalhes que as vezes só o uso do BibTex não resolve. 
+
+\end{document}
+  

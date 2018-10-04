@@ -1,0 +1,8 @@
+
+% (Colocar aqui a folha de aprovação. Pode ser a cópia escaneada em forma de 
+% folha_aprovacao.eps colocada no script do arquivo de aprovacao na pasta aprovacao.)
+
+\begin{figure}[ht]
+\epsfxsize=17.5cm \centerline{\epsffile{./aprovação/folha_apresentacao.eps}}
+\end{figure}
+

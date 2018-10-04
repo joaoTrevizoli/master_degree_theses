@@ -1,0 +1,36 @@
+\chapter{\textit{Surgimento e Evolução do Linux}}
+\label{cap:linux}
+\par Neste capítulo será abordado o surgimento e a evolução do sistema operacional Linux.
+
+\section{Histórico do Linux}
+\label{sec:linux}
+\par Atualmente, ... 
+
+\par Segundo \cite{machado}, o sistema operacional (SO), possui inúmeras funções, as quais podem ser resumidas em duas:
+
+\subsectio{{Ações}
+
+\begin{itemize}
+\item \textbf{Facilidade de acesso aos recursos:} consiste em ser totalmente transparente ao usuário a maneira como funciona um computador \index{computador}, ou seja, para um usuário não importa como um arquivo que está em um disquete será lido, mas sim que o mesmo será lido, resumindo, um usuário não precisa saber como será realizado essa ação e suas inúmeras etapas;
+\end{itemize}
+
+\subsubsection{{\it No atual momento}}
+\addcontentsline{toc}{subsubsubsection}{No atual momento}         % \theexnum}
+
+A Figura \ref{S.O.}, aparece na pagina \pageref{S.O.}, enquanto que
+a Figura \ref{torvalds} aparece na pagina \pageref{torvalds} 
+
+
+%\begin{figure}[htbp]
+\begin{figure}[H]
+\tiny \caption{\small Ilustração do sistema operacional como interface entre o usuário e os recursos do sistema. \label{S.O.}}
+\vspace{-0.3 cm}
+\begin{center}
+\begin{psfrags}
+\epsfxsize=4cm
+\centerline{\includegraphics[width=4.0 cm]{./capitulo_2/tux-linux.eps}}
+\end{psfrags}
+{\small Fonte: Adaptado segundo \cite{machado}}
+\end{center}
+\end{figure}
+

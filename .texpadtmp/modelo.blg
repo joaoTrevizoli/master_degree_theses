@@ -1,0 +1,86 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: modelo.aux
+The style file: ../abnt-alf.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: ../abnt-options.bib
+Database file #2: .././bibliografia/bibliografia1.bib
+Repeated entry---line 314 of file .././bibliografia/bibliografia1.bib
+ : @inproceedings{brath1997role
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 322 of file .././bibliografia/bibliografia1.bib
+ : @article{box1976time
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 329 of file .././bibliografia/bibliografia1.bib
+ : @article{calzadilla2013climate
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 362 of file .././bibliografia/bibliografia1.bib
+ : @article{camargo1971paulo
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 370 of file .././bibliografia/bibliografia1.bib
+ : @article{cooper1969absorption
+ :                              ,
+I'm skipping whatever remains of this entry
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
++---------------------------------------------------------+
+| Estilo bibliogr?fico abnt-alf.bst vers?o 1.45.2.1           |
+| Em caso de d?vidas ou problemas com este estilo procure |
+| http://abntex.codigolivre.org.br                        |
++---------------------------------------------------------+
+You've used 58 entries,
+            6480 wiz_defined-function locations,
+            1497 strings with 19069 characters,
+and the built_in function-call counts, 51746 in all, are:
+= -- 3838
+> -- 2052
+< -- 163
++ -- 825
+- -- 605
+* -- 4019
+:= -- 6635
+add.period$ -- 184
+call.type$ -- 59
+change.case$ -- 675
+chr.to.int$ -- 178
+cite$ -- 55
+duplicate$ -- 2521
+empty$ -- 3609
+format.name$ -- 2938
+if$ -- 12223
+int.to.chr$ -- 4
+int.to.str$ -- 1
+missing$ -- 1046
+newline$ -- 271
+num.names$ -- 275
+pop$ -- 1255
+preamble$ -- 1
+purify$ -- 240
+quote$ -- 0
+skip$ -- 2807
+stack$ -- 1
+substring$ -- 2352
+swap$ -- 1390
+text.length$ -- 122
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 8
+warning$ -- 0
+while$ -- 460
+width$ -- 0
+write$ -- 934
+(There were 5 error messages)

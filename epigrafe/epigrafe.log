@@ -1,0 +1,340 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=latex 2012.8.18)  12 NOV 2012 08:12
+entering extended mode
+**C:/Backup/Doutorado/Tese*LiX/Epigrafe/epigrafe.tex
+("C:/Backup/Doutorado/Tese LiX/Epigrafe/epigrafe.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, portuguese, loaded.
+! Undefined control sequence.
+l.3 \chapter
+            *{}  \thispagestyle{plain}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \chapter*
+             {}  \thispagestyle{plain}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no * in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 3--4
+[]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 \begin{flushright}
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 6--6
+[] 
+ []
+
+! Undefined control sequence.
+l.8   {\large
+             {\textit{Para ser grande, sê inteiro:}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ê in font cmti10!
+
+Overfull \hbox (20.71097pt too wide) in paragraph at lines 8--9
+ \OT1/cmr/m/it/10 Para
+ []
+
+
+Overfull \hbox (12.90546pt too wide) in paragraph at lines 8--9
+ \OT1/cmr/m/it/10 ser
+ []
+
+
+Overfull \hbox (31.81644pt too wide) in paragraph at lines 8--9
+ \OT1/cmr/m/it/10 grande,
+ []
+
+
+Overfull \hbox (4.08887pt too wide) in paragraph at lines 8--9
+ \OT1/cmr/m/it/10 s
+ []
+
+
+Overfull \hbox (12.26659pt too wide) in paragraph at lines 8--9
+ \OT1/cmr/m/it/10 in-
+ []
+
+
+Overfull \hbox (23.45398pt too wide) in paragraph at lines 8--9
+ \OT1/cmr/m/it/10 teiro:
+ []
+
+! Undefined control sequence.
+l.10   {\large
+              {\textit{Nada teu exagera ou exclui.}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (22.76654pt too wide) in paragraph at lines 10--11
+ []\OT1/cmr/m/it/10 Nada
+ []
+
+
+Overfull \hbox (13.28879pt too wide) in paragraph at lines 10--11
+ \OT1/cmr/m/it/10 teu
+ []
+
+
+Overfull \hbox (12.81657pt too wide) in paragraph at lines 10--11
+ \OT1/cmr/m/it/10 ex-
+ []
+
+
+Overfull \hbox (23.1276pt too wide) in paragraph at lines 10--11
+ \OT1/cmr/m/it/10 agera
+ []
+
+
+Overfull \hbox (10.47772pt too wide) in paragraph at lines 10--11
+ \OT1/cmr/m/it/10 ou
+ []
+
+
+Overfull \hbox (12.81657pt too wide) in paragraph at lines 10--11
+ \OT1/cmr/m/it/10 ex-
+ []
+
+
+Overfull \hbox (18.65544pt too wide) in paragraph at lines 10--11
+ \OT1/cmr/m/it/10 clui.
+ []
+
+! Undefined control sequence.
+l.12   {\large
+              {\textit{Sê todo em cada coisa.}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ê in font cmti10!
+
+Overfull \hbox (5.6222pt too wide) in paragraph at lines 12--13
+ []\OT1/cmr/m/it/10 S
+ []
+
+
+Overfull \hbox (18.14432pt too wide) in paragraph at lines 12--13
+ \OT1/cmr/m/it/10 todo
+ []
+
+
+Overfull \hbox (12.7777pt too wide) in paragraph at lines 12--13
+ \OT1/cmr/m/it/10 em
+ []
+
+
+Overfull \hbox (19.42209pt too wide) in paragraph at lines 12--13
+ \OT1/cmr/m/it/10 cada
+ []
+
+
+Overfull \hbox (24.53317pt too wide) in paragraph at lines 12--13
+ \OT1/cmr/m/it/10 coisa.
+ []
+
+! Undefined control sequence.
+l.14   {\large
+              {\textit{Põe quanto és no mínimo que fazes.}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no õ in font cmti10!
+Missing character: There is no é in font cmti10!
+Missing character: There is no í in font cmti10!
+
+Overfull \hbox (11.38326pt too wide) in paragraph at lines 14--15
+ []\OT1/cmr/m/it/10 Pe
+ []
+
+
+Overfull \hbox (29.13315pt too wide) in paragraph at lines 14--15
+ \OT1/cmr/m/it/10 quanto
+ []
+
+
+Overfull \hbox (4.08887pt too wide) in paragraph at lines 14--15
+ \OT1/cmr/m/it/10 s
+ []
+
+
+Overfull \hbox (10.73328pt too wide) in paragraph at lines 14--15
+ \OT1/cmr/m/it/10 no
+ []
+
+
+Overfull \hbox (17.37767pt too wide) in paragraph at lines 14--15
+ \OT1/cmr/m/it/10 mn-
+ []
+
+
+Overfull \hbox (16.35547pt too wide) in paragraph at lines 14--15
+ \OT1/cmr/m/it/10 imo
+ []
+
+
+Overfull \hbox (14.56656pt too wide) in paragraph at lines 14--15
+ \OT1/cmr/m/it/10 que
+ []
+
+
+Overfull \hbox (24.02208pt too wide) in paragraph at lines 14--15
+ \OT1/cmr/m/it/10 fazes.
+ []
+
+! Undefined control sequence.
+l.16   {\large
+              {\textit{Assim em cada lago a lua toda brilha, porque alta viv...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (26.85541pt too wide) in paragraph at lines 16--17
+ []\OT1/cmr/m/it/10 Assim
+ []
+
+
+Overfull \hbox (12.7777pt too wide) in paragraph at lines 16--17
+ \OT1/cmr/m/it/10 em
+ []
+
+
+Overfull \hbox (19.42209pt too wide) in paragraph at lines 16--17
+ \OT1/cmr/m/it/10 cada
+ []
+
+
+Overfull \hbox (17.37767pt too wide) in paragraph at lines 16--17
+ \OT1/cmr/m/it/10 lago
+ []
+
+
+Overfull \hbox (5.11108pt too wide) in paragraph at lines 16--17
+ \OT1/cmr/m/it/10 a
+ []
+
+
+Overfull \hbox (13.03326pt too wide) in paragraph at lines 16--17
+ \OT1/cmr/m/it/10 lua
+ []
+
+
+Overfull \hbox (18.14432pt too wide) in paragraph at lines 16--17
+ \OT1/cmr/m/it/10 toda
+ []
+
+
+Overfull \hbox (27.7276pt too wide) in paragraph at lines 16--17
+ \OT1/cmr/m/it/10 brilha,
+ []
+
+
+Overfull \hbox (27.98311pt too wide) in paragraph at lines 16--17
+ \OT1/cmr/m/it/10 porque
+ []
+
+
+Overfull \hbox (16.0999pt too wide) in paragraph at lines 16--17
+ \OT1/cmr/m/it/10 alta
+ []
+
+
+Overfull \hbox (19.93318pt too wide) in paragraph at lines 16--17
+ \OT1/cmr/m/it/10 vive.
+ []
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 \end{flushright} \normalsize
+                                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 \newpage
+              \thispagestyle{plain}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+\@oddfoot ->\reset@font \hfil \thepage 
+                                       \hfil 
+l.21 \newpage
+              \thispagestyle{plain}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[1])
+! Emergency stop.
+<*> ...up/Doutorado/Tese*LiX/Epigrafe/epigrafe.tex
+                                                  
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 11 strings out of 495325
+ 243 string characters out of 3182179
+ 45883 words of memory out of 3000000
+ 3294 multiletter control sequences out of 15000+200000
+ 3986 words of font info for 15 fonts, out of 3000000 for 9000
+ 16 hyphenation exceptions out of 8191
+ 19i,4n,14p,145b,120s stack positions out of 5000i,500n,10000p,200000b,50000s
+Output written on epigrafe.dvi (1 page, 544 bytes).

@@ -1,0 +1,351 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{1.45.2.1 }
+
+\bibitem[Allen et al. 1998]{allen1998crop}
+\abntrefinfo{Allen et al.}{ALLEN et al.}{1998}
+{ALLEN, R.~G.; PEREIRA, L.~S.; RAES, D.; SMITH, M. et al. Crop
+  evapotranspiration-guidelines for computing crop water requirements-fao
+  irrigation and drainage paper 56.
+\emph{FAO, Rome}, v.~300, n.~9, p. D05109, 1998.}
+
+\bibitem[Alvares et al. 2013]{alvares2013modeling}
+\abntrefinfo{Alvares et al.}{ALVARES et al.}{2013}
+{ALVARES, C.~A.; STAPE, J.~L.; SENTELHAS, P.~C.; GON{\c{C}}ALVES, J.~L. de M.
+  Modeling monthly mean air temperature for brazil.
+\emph{Theoretical and applied climatology}, Springer, v.~113, n.~3-4, p.
+  407--427, 2013.}
+
+\bibitem[Box, Jenkins e Reinsel 1976]{box1976time}
+\abntrefinfo{Box, Jenkins e Reinsel}{BOX; JENKINS; REINSEL}{1976}
+{BOX, G.~E.; JENKINS, G.~M.; REINSEL, G.~C. Time series analysis:
+  Forecastingand control.
+\emph{San Francisco: Holdenday}, 1976.}
+
+\bibitem[Brath 1997]{brath1997role}
+\abntrefinfo{Brath}{BRATH}{1997}
+{BRATH, A. On the role of numerical weather prediction models in real-time
+  flood forecasting. In:  \emph{Proceedings of the International Workshop on
+  River Basin Modeling: Management and Flood Mitigation}. [S.l.: s.n.], 1997.
+  p. 249--259.}
+
+\bibitem[Calzadilla et al. 2013]{calzadilla2013climate}
+\abntrefinfo{Calzadilla et al.}{CALZADILLA et al.}{2013}
+{CALZADILLA, A.; REHDANZ, K.; BETTS, R.; FALLOON, P.; WILTSHIRE, A.; TOL, R.~S.
+  Climate change impacts on global agriculture.
+\emph{Climatic change}, Springer, v.~120, n.~1-2, p. 357--374, 2013.}
+
+\bibitem[Camargo e S{\~a}o 1971]{camargo1971paulo}
+\abntrefinfo{Camargo e S{\~a}o}{CAMARGO; S{\~A}O}{1971}
+{CAMARGO, A.; S{\~A}O, B. h{\'\i}drico no estado~de. Paulo.
+\emph{IAC-Boletim T{\'e}cnico}, n.~116, 1971.}
+
+\bibitem[CAMARGO e CAMARGO 2000]{de2000revisao}
+\abntrefinfo{CAMARGO e CAMARGO}{CAMARGO; CAMARGO}{2000}
+{CAMARGO, {\^A}.~P. D.; CAMARGO, M. B.~P. D. Uma revis{\~a}o anal{\'\i}tica da
+  evapotranspira{\c{c}}{\~a}o potencial.
+\emph{Bragantia}, SciELO Brasil, v.~59, n.~2, p. 125--137, 2000.}
+
+\bibitem[Cooper 1969]{cooper1969absorption}
+\abntrefinfo{Cooper}{COOPER}{1969}
+{COOPER, P. The absorption of radiation in solar stills.
+\emph{Solar energy}, Elsevier, v.~12, n.~3, p. 333--346, 1969.}
+
+\bibitem[Dao e Vemuri 2002]{dao2002performance}
+\abntrefinfo{Dao e Vemuri}{DAO; VEMURI}{2002}
+{DAO, V.~N.; VEMURI, V. A performance comparison of different back propagation
+  neural networks methods in computer network intrusion detection.
+\emph{Differential equations and dynamical systems}, v.~10, n.~1\&2, p.
+  201--214, 2002.}
+
+\bibitem[Feng et al. 2016]{feng2016trend}
+\abntrefinfo{Feng et al.}{FENG et al.}{2016}
+{FENG, G.; COBB, S.; ABDO, Z.; FISHER, D.~K.; OUYANG, Y.; ADELI, A.; JENKINS,
+  J.~N. Trend analysis and forecast of precipitation, reference
+  evapotranspiration, and rainfall deficit in the blackland prairie of eastern
+  mississippi.
+\emph{Journal of Applied Meteorology and Climatology}, v.~55, n.~7, p.
+  1425--1439, 2016.}
+
+\bibitem[Ferraudo 2014]{ferraudo}
+\abntrefinfo{Ferraudo}{FERRAUDO}{2014}
+{FERRAUDO, A.~S. Artificial neural networks. In:  \emph{Nutritional Modelling
+  for Pigs and Poultry}. [S.l.]: CABI, 2014. p. 88--95.}
+
+\bibitem[French, Krajewski e Cuykendall 1992]{french1992rainfall}
+\abntrefinfo{French, Krajewski e Cuykendall}{FRENCH; KRAJEWSKI;
+  CUYKENDALL}{1992}
+{FRENCH, M.~N.; KRAJEWSKI, W.~F.; CUYKENDALL, R.~R. Rainfall forecasting in
+  space and time using a neural network.
+\emph{Journal of hydrology}, Elsevier, v.~137, n.~1, p. 1--31, 1992.}
+
+\bibitem[Friedman, Hastie e Tibshirani 2001]{friedman2001elements}
+\abntrefinfo{Friedman, Hastie e Tibshirani}{FRIEDMAN; HASTIE; TIBSHIRANI}{2001}
+{FRIEDMAN, J.; HASTIE, T.; TIBSHIRANI, R. \emph{The elements of statistical
+  learning}. [S.l.]: Springer series in statistics New York, 2001.}
+
+\bibitem[Ghil et al. 1981]{ghil1981applications}
+\abntrefinfo{Ghil et al.}{GHIL et al.}{1981}
+{GHIL, M.; COHN, S.; TAVANTZIS, J.; BUBE, K.; ISAACSON, E. Applications of
+  estimation theory to numerical weather prediction. In:  \emph{Dynamic
+  meteorology: Data assimilation methods}. [S.l.]: Springer, 1981. p.
+  139--224.}
+
+\bibitem[Gonfiantini et al. 2001]{gonfiantini2001altitude}
+\abntrefinfo{Gonfiantini et al.}{GONFIANTINI et al.}{2001}
+{GONFIANTINI, R.; ROCHE, M.-A.; OLIVRY, J.-C.; FONTES, J.-C.; ZUPPI, G.~M. The
+  altitude effect on the isotopic composition of tropical rains.
+\emph{Chemical Geology}, Elsevier, v.~181, n.~1-4, p. 147--167, 2001.}
+
+\bibitem[Hall, Brooks e III 1999]{hall1999precipitation}
+\abntrefinfo{Hall, Brooks e III}{HALL; BROOKS; III}{1999}
+{HALL, T.; BROOKS, H.~E.; III, C.~A. D. Precipitation forecasting using a
+  neural network.
+\emph{Weather and forecasting}, v.~14, n.~3, p. 338--345, 1999.}
+
+\bibitem[Hargreaves e Samani 1985]{hargreaves1985reference}
+\abntrefinfo{Hargreaves e Samani}{HARGREAVES; SAMANI}{1985}
+{HARGREAVES, G.~H.; SAMANI, Z.~A. Reference crop evapotranspiration from
+  temperature.
+\emph{Applied engineering in agriculture}, American Society of Agricultural and
+  Biological Engineers, v.~1, n.~2, p. 96--99, 1985.}
+
+\bibitem[Haykin e Network 2004]{haykin2004comprehensive}
+\abntrefinfo{Haykin e Network}{HAYKIN; NETWORK}{2004}
+{HAYKIN, S.; NETWORK, N. A comprehensive foundation.
+\emph{Neural Networks}, v.~2, n.~2004, 2004.}
+
+\bibitem[Hecht-Nielsen 1992]{hecht1992theory}
+\abntrefinfo{Hecht-Nielsen}{HECHT-NIELSEN}{1992}
+{HECHT-NIELSEN, R. Theory of the backpropagation neural network. In:
+  \emph{Neural networks for perception}. [S.l.]: Elsevier, 1992. p. 65--93.}
+
+\bibitem[Karlik e Olgac 2011]{karlik2011performance}
+\abntrefinfo{Karlik e Olgac}{KARLIK; OLGAC}{2011}
+{KARLIK, B.; OLGAC, A.~V. Performance analysis of various activation functions
+  in generalized mlp architectures of neural networks.
+\emph{International Journal of Artificial Intelligence and Expert Systems},
+  v.~1, n.~4, p. 111--122, 2011.}
+
+\bibitem[Kim e Pachepsky 2010]{kim2010reconstructing}
+\abntrefinfo{Kim e Pachepsky}{KIM; PACHEPSKY}{2010}
+{KIM, J.-W.; PACHEPSKY, Y.~A. Reconstructing missing daily precipitation data
+  using regression trees and artificial neural networks for swat streamflow
+  simulation.
+\emph{Journal of hydrology}, Elsevier, v.~394, n.~3, p. 305--314, 2010.}
+
+\bibitem[Kuligowski e Barros 1998]{kuligowski1998experiments}
+\abntrefinfo{Kuligowski e Barros}{KULIGOWSKI; BARROS}{1998a}
+{KULIGOWSKI, R.~J.; BARROS, A.~P. Experiments in short-term precipitation
+  forecasting using artificial neural networks.
+\emph{Monthly weather review}, v.~126, n.~2, p. 470--482, 1998.}
+
+\bibitem[Kuligowski e Barros 1998]{kuligowski1998localized}
+\abntrefinfo{Kuligowski e Barros}{KULIGOWSKI; BARROS}{1998b}
+{KULIGOWSKI, R.~J.; BARROS, A.~P. Localized precipitation forecasts from a
+  numerical weather prediction model using artificial neural networks.
+\emph{Weather and forecasting}, v.~13, n.~4, p. 1194--1204, 1998.}
+
+\bibitem[Kumarasiri e Sonnadara 2006]{kumarasiri2006rainfall}
+\abntrefinfo{Kumarasiri e Sonnadara}{KUMARASIRI; SONNADARA}{2006}
+{KUMARASIRI, A.; SONNADARA, D. Rainfall forecasting: an artificial neural
+  network approach. In:  \emph{Proceedings of the Technical Sessions}. [S.l.:
+  s.n.], 2006. v.~22, p. 1--13.}
+
+\bibitem[Luk, Ball e Sharma 2000]{luk2000study}
+\abntrefinfo{Luk, Ball e Sharma}{LUK; BALL; SHARMA}{2000}
+{LUK, K.; BALL, J.; SHARMA, A. A study of optimal model lag and spatial inputs
+  to artificial neural network for rainfall forecasting.
+\emph{Journal of Hydrology}, Elsevier, v.~227, n.~1, p. 56--65, 2000.}
+
+\bibitem[Medvigy e Beaulieu 2012]{medvigy2012trends}
+\abntrefinfo{Medvigy e Beaulieu}{MEDVIGY; BEAULIEU}{2012}
+{MEDVIGY, D.; BEAULIEU, C. Trends in daily solar radiation and precipitation
+  coefficients of variation since 1984.
+\emph{Journal of Climate}, v.~25, n.~4, p. 1330--1339, 2012.}
+
+\bibitem[Mishra e Sharma 2018]{mishra2018rainfall}
+\abntrefinfo{Mishra e Sharma}{MISHRA; SHARMA}{2018}
+{MISHRA, S.~K.; SHARMA, N. Rainfall forecasting using backpropagation neural
+  network. In:  \emph{Innovations in Computational Intelligence}. [S.l.]:
+  Springer, 2018. p. 277--288.}
+
+\bibitem[Montana e Davis 1989]{montana1989training}
+\abntrefinfo{Montana e Davis}{MONTANA; DAVIS}{1989}
+{MONTANA, D.~J.; DAVIS, L. Training feedforward neural networks using genetic
+  algorithms. In:  \emph{IJCAI}. [S.l.: s.n.], 1989. v.~89, p. 762--767.}
+
+\bibitem[Nasseri, Asghari e Abedini 2008]{nasseri2008optimized}
+\abntrefinfo{Nasseri, Asghari e Abedini}{NASSERI; ASGHARI; ABEDINI}{2008}
+{NASSERI, M.; ASGHARI, K.; ABEDINI, M. Optimized scenario for rainfall
+  forecasting using genetic algorithm coupled with artificial neural network.
+\emph{Expert Systems with Applications}, Elsevier, v.~35, n.~3, p. 1415--1421,
+  2008.}
+
+\bibitem[Pankratz 1983]{pankratz1983forecasting}
+\abntrefinfo{Pankratz}{PANKRATZ}{1983}
+{PANKRATZ, A. Forecasting with univariate box-jenkins method.
+\emph{NY: Wiley}, 1983.}
+
+\bibitem[Partal, Cigizoglu e Kahya 2015]{partal2015daily}
+\abntrefinfo{Partal, Cigizoglu e Kahya}{PARTAL; CIGIZOGLU; KAHYA}{2015}
+{PARTAL, T.; CIGIZOGLU, H.~K.; KAHYA, E. Daily precipitation predictions using
+  three different wavelet neural network algorithms by meteorological data.
+\emph{Stochastic Environmental Research and Risk Assessment}, Springer, v.~29,
+  n.~5, p. 1317--1329, 2015.}
+
+\bibitem[Rajurkar, Kothyari e Chaube 2002]{rajurkar2002artificial}
+\abntrefinfo{Rajurkar, Kothyari e Chaube}{RAJURKAR; KOTHYARI; CHAUBE}{2002}
+{RAJURKAR, M.; KOTHYARI, U.; CHAUBE, U. Artificial neural networks for daily
+  rainfall—runoff modelling.
+\emph{Hydrological Sciences Journal}, Taylor \& Francis, v.~47, n.~6, p.
+  865--877, 2002.}
+
+\bibitem[Ram{\'\i}rez, Ferreira e Velho 2006]{ramirez2006linear}
+\abntrefinfo{Ram{\'\i}rez, Ferreira e Velho}{RAM{\'I}REZ; FERREIRA;
+  VELHO}{2006}
+{RAM{\'I}REZ, M.~C.; FERREIRA, N.~J.; VELHO, H. F.~C. Linear and nonlinear
+  statistical downscaling for rainfall forecasting over southeastern brazil.
+\emph{Weather and forecasting}, v.~21, n.~6, p. 969--989, 2006.}
+
+\bibitem[Rao e Rao 2016]{rao1995c++}
+\abntrefinfo{Rao e Rao}{RAO; RAO}{2016}
+{RAO, V.; RAO, H. \emph{Learn C++ Neural Networks and Fuzzy Logic}. [S.l.]:
+  Amazon Digital Services LLC, 2016.}
+
+\bibitem[Rivero, Pati{\~n}o e Pucheta 2015]{rivero2015short}
+\abntrefinfo{Rivero, Pati{\~n}o e Pucheta}{RIVERO; PATI{\~N}O; PUCHETA}{2015}
+{RIVERO, C.~R.; PATI{\~N}O, H.~D.; PUCHETA, J.~A. Short-term rainfall time
+  series prediction with incomplete data. In:  IEEE. \emph{Neural Networks
+  (IJCNN), 2015 International Joint Conference on}. [S.l.], 2015. p.~1--6.}
+
+\bibitem[Salati et al. 1979]{salati1979recycling}
+\abntrefinfo{Salati et al.}{SALATI et al.}{1979}
+{SALATI, E.; DALL'OLIO, A.; MATSUI, E.; GAT, J.~R. Recycling of water in the
+  amazon basin: an isotopic study.
+\emph{Water resources research}, Wiley Online Library, v.~15, n.~5, p.
+  1250--1258, 1979.}
+
+\bibitem[Schoof e Pryor 2001]{schoof2001downscaling}
+\abntrefinfo{Schoof e Pryor}{SCHOOF; PRYOR}{2001}
+{SCHOOF, J.~T.; PRYOR, S. Downscaling temperature and precipitation: A
+  comparison of regression-based methods and artificial neural networks.
+\emph{International Journal of climatology}, Wiley Online Library, v.~21, n.~7,
+  p. 773--790, 2001.}
+
+\bibitem[Shanker, Hu e Hung 1996]{shanker1996effect}
+\abntrefinfo{Shanker, Hu e Hung}{SHANKER; HU; HUNG}{1996}
+{SHANKER, M.; HU, M.~Y.; HUNG, M.~S. Effect of data standardization on neural
+  network training.
+\emph{Omega}, Elsevier, v.~24, n.~4, p. 385--397, 1996.}
+
+\bibitem[Sumi, Zaman e Hirose 2012]{sumi2012rainfall}
+\abntrefinfo{Sumi, Zaman e Hirose}{SUMI; ZAMAN; HIROSE}{2012}
+{SUMI, S.~M.; ZAMAN, M.~F.; HIROSE, H. A rainfall forecasting method using
+  machine learning models and its application to the fukuoka city case.
+\emph{International Journal of Applied Mathematics and Computer Science},
+  Versita, v.~22, n.~4, p. 841--854, 2012.}
+
+\bibitem[Sun et al. 2006]{sun2006often}
+\abntrefinfo{Sun et al.}{SUN et al.}{2006}
+{SUN, Y.; SOLOMON, S.; DAI, A.; PORTMANN, R.~W. How often does it rain?
+\emph{Journal of Climate}, v.~19, n.~6, p. 916--934, 2006.}
+
+\bibitem[Thornthwaite e Mather 1957]{thornthwaite1957instructions}
+\abntrefinfo{Thornthwaite e Mather}{THORNTHWAITE; MATHER}{1957}
+{THORNTHWAITE, C.; MATHER, J. Instructions and tables for computing potential
+  evapotranspiration and the water balance, 5th printing.
+\emph{CW Thornthwaite Associates, Laboratory of Climatology, Elmer, NJ, USA},
+  v.~10, n.~3, 1957.}
+
+\bibitem[Thornthwaite 1948]{thornthwaite1948approach}
+\abntrefinfo{Thornthwaite}{THORNTHWAITE}{1948}
+{THORNTHWAITE, C.~W. An approach toward a rational classification of climate.
+\emph{Geographical review}, JSTOR, v.~38, n.~1, p. 55--94, 1948.}
+
+\bibitem[Toth, Brath e Montanari 2000]{toth2000comparison}
+\abntrefinfo{Toth, Brath e Montanari}{TOTH; BRATH; MONTANARI}{2000}
+{TOTH, E.; BRATH, A.; MONTANARI, A. Comparison of short-term rainfall
+  prediction models for real-time flood forecasting.
+\emph{Journal of Hydrology}, Elsevier, v.~239, n.~1, p. 132--147, 2000.}
+
+\bibitem[Tularam e Ilahee 2010]{tularam2010time}
+\abntrefinfo{Tularam e Ilahee}{TULARAM; ILAHEE}{2010}
+{TULARAM, G.~A.; ILAHEE, M. Time series analysis of rainfall and temperature
+  interactions in coastal catchments.
+\emph{Journal of Mathematics and Statistics}, v.~6, n.~3, p. 372--380, 2010.}
+
+\bibitem[Valipour 2016]{valipour2016much}
+\abntrefinfo{Valipour}{VALIPOUR}{2016a}
+{VALIPOUR, M. How much meteorological information is necessary to achieve
+  reliable accuracy for rainfall estimations?
+\emph{Agriculture}, Multidisciplinary Digital Publishing Institute, v.~6, n.~4,
+  p.~53, 2016.}
+
+\bibitem[Valipour 2016]{valipour2016optimization}
+\abntrefinfo{Valipour}{VALIPOUR}{2016b}
+{VALIPOUR, M. Optimization of neural networks for precipitation analysis in a
+  humid region to detect drought and wet year alarms.
+\emph{Meteorological Applications}, Wiley Online Library, v.~23, n.~1, p.
+  91--100, 2016.}
+
+\bibitem[Vuille et al. 2003]{vuille2003modeling}
+\abntrefinfo{Vuille et al.}{VUILLE et al.}{2003}
+{VUILLE, M.; BRADLEY, R.~S.; WERNER, M.; HEALY, R.; KEIMIG, F. Modeling
+  $\delta$18o in precipitation over the tropical americas: 1. interannual
+  variability and climatic controls.
+\emph{Journal of Geophysical Research: Atmospheres}, Wiley Online Library,
+  v.~108, n.~D6, 2003.}
+
+\bibitem[Wang 2003]{wang2003artificial}
+\abntrefinfo{Wang}{WANG}{2003}
+{WANG, S.-C. Artificial neural network. In:  \emph{Interdisciplinary Computing
+  in Java Programming}. [S.l.]: Springer, 2003. p. 81--100.}
+
+\bibitem[WMO 1989]{wmo1989calculation}
+\abntrefinfo{WMO}{WMO}{1989}
+{WMO. Calculation of monthly and annual 30-year standard normals.
+1989.}
+
+\bibitem[Wu e Chau 2006]{wu2006flood}
+\abntrefinfo{Wu e Chau}{WU; CHAU}{2006}
+{WU, C.; CHAU, K. A flood forecasting neural network model with genetic
+  algorithm.
+\emph{International journal of environment and pollution}, Inderscience
+  Publishers, v.~28, n.~3-4, p. 261--273, 2006.}
+
+\bibitem[Wythoff 1993]{wythoff1993backpropagation}
+\abntrefinfo{Wythoff}{WYTHOFF}{1993}
+{WYTHOFF, B.~J. Backpropagation neural networks: a tutorial.
+\emph{Chemometrics and Intelligent Laboratory Systems}, Elsevier, v.~18, n.~2,
+  p. 115--155, 1993.}
+
+\bibitem[Yaldi et al. 2009]{yaldi2009improving}
+\abntrefinfo{Yaldi et al.}{YALDI et al.}{2009}
+{YALDI, G.; TAYLOR, M. A.~P.; YUE, W.~L. et al. Improving artificial neural
+  network performance in calibrating doubly-constrained work trip distribution
+  by using a simple data normalization and linear activation function.
+Ministry of Transport, 2009.}
+
+\bibitem[Zhang 1998]{zhang1998linear}
+\abntrefinfo{Zhang}{ZHANG}{1998}
+{ZHANG, G. \emph{Linear and nonlinear time series forecasting with artificial
+  neural networks}. [S.l.]: Kent State University, 1998.}
+
+\bibitem[Zhang, Patuwo e Hu 1998]{zhang1998forecasting}
+\abntrefinfo{Zhang, Patuwo e Hu}{ZHANG; PATUWO; HU}{1998}
+{ZHANG, G.; PATUWO, B.~E.; HU, M.~Y. Forecasting with artificial neural
+  networks:: The state of the art.
+\emph{International journal of forecasting}, Elsevier, v.~14, n.~1, p. 35--62,
+  1998.}
+
+\bibitem[Zhang 2003]{zhang2003time}
+\abntrefinfo{Zhang}{ZHANG}{2003}
+{ZHANG, G.~P. Time series forecasting using a hybrid arima and neural network
+  model.
+\emph{Neurocomputing}, Elsevier, v.~50, p. 159--175, 2003.}
+
+\end{thebibliography}

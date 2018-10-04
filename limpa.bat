@@ -1,0 +1,2 @@
+del modelo.aux modelo.bbl modelo.blg modelo.idx modelo.lof modelo.log modelo.lot modelo.ps modelo.toc modelo.ilg modelo.ind modelo.out
+del abnt-classe-doc-2.aux abnt-classe-doc-2.bbl abnt-classe-doc-2.blg abnt-classe-doc-2.idx abnt-classe-doc-2.lof abnt-classe-doc-2.log abnt-classe-doc-2.lot abnt-classe-doc-2.ps abnt-classe-doc-2.toc abnt-classe-doc-2.los abnt-classe-doc-2.out

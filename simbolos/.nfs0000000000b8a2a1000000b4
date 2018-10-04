@@ -1,0 +1,135 @@
+\chapter*{Lista de Símbolos}
+
+\vspace*{-0.5cm}
+
+\onehalfspacing
+
+% Comentario :
+% Os simbolos deven ser colcoados em ordem alfavetica en função da sua definição
+
+\noindent
+\begin{tabular}{l c p{.85\linewidth}}
+$\theta_i$             & & Ângulo de fase na barra $i$\\
+
+$g_{ij}$               & & Condutância da linha no ramo $ij$ \\
+
+$Y$                    & & Conjunto das linhas que podem ou não serem adicionadas no ramo $ij$\\
+
+$\Omega_b$             & & Conjunto de barras \\
+
+$\Omega_l^1$           & & Conjunto de caminhos nos quais existem Linhas na configuração base\\
+
+$\Omega_l^2$           & & Conjunto de caminhos novos (onde serão adicionadas novos Linhas)\\
+
+$\Omega_l^0$           & & Conjunto de linhas existentes na configuração base\\
+
+$\Omega_l$             & & Conjunto de ramos\\
+
+$c^n_{ij}$             & & Custo de construção das linhas no ramo $ij$\\ 
+
+$d_{i}$                & & Demanda na barra $i$\\
+
+$\epsilon_f$           & & Error da condição de factibilidade \\
+
+$\epsilon_o$           & & Error da condição de otimalidade\\
+
+$\epsilon_{\mu}$       & & Error do parâmetro de barreira \\
+
+$\gamma$               & & Fator de segurança \\
+
+$\overline{f}_{ij}^0$  & & Fluxo de potência ativa máximo nos ramos para o conjunto de linhas já existentes\\
+
+$\overline{f}_{ij}^1$  & & Fluxo de potência ativa máximo nos ramos para o conjunto de linhas já existentes ou linhas adicionadas em paralelo\\ 
+
+$\overline{f}_{ij}^2$  & & Fluxo de potência ativa máximo nos ramos para o conjunto de linhas correspondentes aos novos caminhos\\ 
+
+$\overline{f}_{ij}$    & & Fluxo de potência ativa máximo permitida no ramo $ij$ para linhas novas\\
+
+$f_{ij}^0$             & & Fluxo de potência ativa nos ramos para o conjunto de linhas já existentes\\
+
+$f_{ij}^1$             & & Fluxo de potência ativa nos ramos para o conjunto de linhas já existentes ou linhas adicionadas em paralelo\\
+
+$f_{ij}^2$             & & Fluxo de potência ativa nos ramos do conjunto de linhas correspondentes aos novos caminhos\\
+
+$f_{ij}$               & & Fluxo de potência ativa no ramo $ij$ para linhas novas\\
+
+$f_{ij,y}$             & & Fluxo na linha $y$ do ramo $ij$\\
+
+$p_{i}$                & & Geração na barra $i$\\
+
+$\overline{p}_{i}$     & & Geração máxima na barra $i$\\
+
+$v$                    & & Investimento devido às adições de Linhas no sistema - Função Objetivo\\
+
+$ij$                   & & Linha entre as barras $i$ e $j$ \\
+
+$n_{ij}$               & & Número de linhas adicionadas no ramo $ij$\\
+
+
+\end{tabular}
+
+\newpage
+\noindent
+\begin{tabular}{l c p{.85\linewidth}}
+
+$\overline{n}_{ij}^2$  & & Número máximo de linhas em caminhos novos
+
+$\overline{n}_{ij}^1$  & & Número máximo de linhas que podem ser adicionadas em paralelo às linhas dos caminhos já existentes\\
+
+$\overline{n}_{ij}$    & & Número máximo de Linhas que podem ser adicionados no ramo $ij$\\
+
+$n_{ij}^1$             & & Número de linhas adicionadas em paralelo às linhas já existentes\\
+
+$n_{ij}^{0}$           & & Número de linhas existentes na configuração base no ramo $ij$\\
+
+$n_{ij}^2$             & & Número de linhas novas adicionadas no ramo $ij$\\
+
+$\gamma_{ij}$          & & Susceptância nas linhas do ramo $ij$\\
+
+$\gamma_{ij}^0$        & & Susceptância nas linhas existente do ramo $ij$\\
+
+$w_{ij,y}$             & & Variável binária correspondente à linha $y$ candidata a ser adicionada ou não no ramo $ij$\\
+
+$x_{ij}$               & & reatância do circuíto $ij$\\
+
+$q_{i}$                & & vetor de geração de potência reativa na barra $i$\\
+
+$\overline{q_i}$       & & limite máximo de geração de potência reativa na barra $i$\\
+
+$\underline{q_i}$      & & limite mínimo de geração de potência reativa na barra $i$\\
+
+$e_{i}$                & & vetor de demanda de potência reativa na barra $i$\\
+
+$V_{i}$                & & magnitude de tensão na barra $i$\\
+
+$\overline{V_{i}}$     & & limite máximo da magnitude de tensão na barra $i$\\
+
+$\underline{V_{i}}$    & & limite mínimo da magnitude de tensão na barra $i$\\
+
+$e_{i}$                & & vetor de demanda de potência reativa na barra $i$\\
+
+$s_{ij}^{de}$          & & fluxo de potência aparente (MVA) no ramo $ij$ saindo do terminal\\
+
+$s_{ij}^{para}$        & & fluxo de potência aparente (MVA) no ramo $ij$ chegando no terminal\\
+
+$\overline{s_{ij}}$    & & limite de fluxo de potência aparente (MVA) no ramo $ij$\\
+
+$\theta{ij}$           & & diferença angular entre as barra $i$ e $j$\\
+
+$\Omega_{bi}$          & & conjunto das barras vizinhas da barra $I$\\
+
+$g_{ij}$               & & condutância da linha no ramo $ij$\\
+
+$g_{ij}^0$             & & condutância existente da linha no ramo $ij$\\
+
+$b_{ij}$               & & susceptância da linha no ramo $ij$\\
+
+$b_{ij}^{sh}$          & & susceptância shunt da linha no ramo $ij$\\
+
+$b_{i}^{sh}$           & & susceptância shunt na barra $i$\\
+
+$G_{ij}$               & & matriz de condutância\\
+
+$B_{ij}$               & & matriz de susceptância\\
+
+\end{tabular}

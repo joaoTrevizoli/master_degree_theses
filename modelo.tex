@@ -1,0 +1,418 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Modelo.tex  (Serve para escrever Monografias - Dissertação - Tese)                      %%
+%%                                                                                         %%
+%% Idealizado em  06/12/2012 - por:  Emivan Ferreira da Silva (emivan@unemat.br)           %%
+%%                                   Sérgio Azevedo de Oliveira (grilo@dee.feis.unesp.br)  %% 
+%%                                                                                         %%
+%%              Este documento foi idealizado para auxiliar os alunos do                   %%
+%%                      PPGEE da UNESP - Câmpus de Ilha Solteira.                          %%  %%                                                                                         %%
+%%                                                                                         %%
+%%            Maiores informações, favor entrar em contato com os autores.                 %%
+%%                                                                                         %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{filecontents*}{example.eps}
+%!PS-Adobe-3.0 EPSF-3.0
+%%BoundingBox: 19 19 221 221
+%%CreationDate: Mon Sep 29 1997
+%%Creator: programmed by hand (JK)
+%%EndComments
+gsave
+newpath
+  20 20 moveto
+  20 220 lineto
+  220 220 lineto
+  220 20 lineto
+closepath
+2 setlinewidth
+gsave
+  .4 setgray fill
+grestore
+stroke
+grestore
+\end{filecontents*}
+
+\documentclass[dvips,abntfigtabnum,capchap,ruledheader,anapcustomindent]{abnt} 
+%\documentclass[dvips,abntfigtabnum,capchap,ruledheader,anapcustomindent,twoside]{abnt} 
+
+% OBSERVAÇÕES:
+% abnttabnum  -  serve para enumerar as figuras em ordem sequencial em todo o texto
+% capchap        -  faz com que os título dos capítulos (chap - chapter) fiquem com letras maiúsculas (cap)
+% capsec         -  faz com que os título das seções (sec - section) fiquem com letras maiúsculas (cap)
+%                   (esta última classe não foi usada neste modelo)
+% ruledheader    -  coloca uma linha sublinhando o cabeçalho
+% twoside        -  para imprimir frente e verso  (retire esta opção para imprimir apenas no anverso)
+
+%%%%%%%%%%%%%%  PACOTES UTILIZADOS   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[brazil]{babel}
+\usepackage{amsthm,amsmath,amssymb,mathrsfs,amsbsy,mathptmx}
+\usepackage[utf8]{inputenc}
+
+\usepackage{chngcntr}                       % para ajustar o contador de equações
+\usepackage[T1]{fontenc}                    % uso de Font Encoding
+\usepackage[normalem]{ulem}                 % usado para sublinhar textos
+\usepackage{graphicx}                % carrega macros necessárias para plotar figuras no Latex
+%\usepackage[breaklinks]{hyperref}           % hyperref para trabalhar com links no texto e breaklinks para quebra os links cujas linhas são grandes.
+%\hypersetup{colorlinks,citecolor=blue,filecolor=yellow,linkcolor=red,urlcolor=green,pdfnewwindow}
+\usepackage[alf,abnt-etal-list=0,abnt-doi=expand]{abntcite} % configura o sistema 
+
+                                            % de citações e referências para o estilo ABNT
+                                            % alf = estilo autor-data, para citações
+                                            % abnt-etal-list = coloca o nome de todos os autores nas referências
+                                            % bibjustif = justifica as referências (para a biblioteca o texto 
+                                            %             das referências não devem ser justificadas)
+                                            % Os arquivos abnt-alf.sty e abnt-alf.bst são necessário apenas para 
+                                            % quem trabalha no Windows.
+                                            % Quando uso \cite{autor} aparece (AUTOR, ANO) e quando escrevo
+                                            % \citeonline{autor} aparece Autor (ANO)
+\usepackage{float,epsfig,psfrag}            % para ajuste das figuras (.eps)
+\usepackage{wrapfig}                        % permite colocar figuras ao lado de texto no Latex
+\usepackage{eso-pic}                        % carrega o comando \AddToShipoutPicture*
+\usepackage{longtable}                      % Pacote para criar tabelas longas
+\usepackage{here}                           % Exige que a figura fique no local especificado (utilizar [H])
+\usepackage{url}                            % Para trabalhar com URL's no texto
+\usepackage{makeidx}                        % para fazer índice remissivo
+\usepackage{multirow}                       % para fazer alterações nas tabelas
+\usepackage{caption}                        % para fazer alterações nas legendas
+\usepackage{filecontents}
+\usepackage{subfig}
+
+%-------------------------------------------------------------------------------------------
+\usepackage[titles]{tocloft}                % Para alinhar o Sumário (Alinhamento à Esquerda) 
+\setlength{\cftchapindent}{1.3cm}           % ajusta identação dos capítulos no sumário
+\setlength{\cftsecindent}{1.3cm}            % ajusta identação das seções no sumário
+\setlength{\cftsubsecindent}{1.3cm}         % ajusta identação das subseções no sumário
+\setlength{\cftsubsubsecindent}{1.3cm}      % ajusta identação das subseções no sumário
+%-------------------------------------------------------------------------------------------
+\usepackage{tocloft, blindtext}             % para permitir alterações nas figuras e tabelas
+%                                           ------------------------------------------------
+\renewcommand{\cftfigpresnum}{Figure }      % Para colocar a palavra "Figura" na lista de figuras,
+                                            % antes do número e identar corretamente
+\newlength{\mylen}
+\settowidth{\mylen}{\bfseries\cftfigpresnum\cftfigaftersnum}
+\addtolength{\cftfignumwidth}{\mylen}
+%                                           ------------------------------------------------
+\renewcommand{\cfttabpresnum}{Tabela }      % Para colocar a palavra "Tabela" na lista de tabelas,
+                                            % antes do número e identar corretamente contents
+\settowidth{\mylen}{\bfseries\cfttabpresnum\cfttabaftersnum}
+\addtolength{\cfttabnumwidth}{\mylen}
+%
+%-------------------------------------------------------------------------------------------
+\let\oldthebibliography=\thebibliography    % Para controlar os espaços entre os itens da referência  
+  \let\endoldthebibliography=\endthebibliography
+  \renewenvironment{thebibliography}[1]{%
+    \begin{oldthebibliography}{#1}%
+      \setlength{\parskip}{0ex}%
+      \setlength{\itemsep}{2ex}%
+  }%
+  {%
+    \end{oldthebibliography}%
+  }
+%-------------------------------------------------------------------------------------------
+
+%%%%%%%% PACOTES NÃO UTILIZADOS QUE PODERÃO SER ÚTEIS   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\citebrackets{[}{]}                       % como mudar os delimitadores da citação de () para []
+%\renewcommand{\ABCIcitecolondefault}{, }  % {;\penalty\@m\ }
+%\usepackage{tikz,wallpaper,watermark}     % Usado para inserir a marca d'agua
+%\usepackage{calligra}                     % Como é usado no texto: {\calligra Emivan Ferreira da Silva}
+%\usepackage[bibjustif]{abntcite}          % Para fazer a bibliografia justificada 
+%-------------------------------------------------------------------------------------------
+
+%%%%%%%%%%%%%%  COMANDOS UTILIZADOS   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\allowdisplaybreaks[2]                 % permite a quebra automática de página nos ambientes align, gather, etc. 
+                                       % (usa o pacote 'amsthm')
+\counterwithout{equation}{chapter}     % serve para enumerar as equações sequencialmente 
+                                       % (usa o pacote chngcntr)
+%-------------------------------------------------------------------------------------------
+\DeclareCaptionLabelSeparator{colon}{ - } % serve para colocar o hifen na legenda da figura 
+                                          % (exemplo: Figura 1 - Visão geral...) (usa o pacote caption)
+\captionsetup{textfont=normalsize}             % padroniza o tamanho da legenda da figura para "small"
+\captionsetup{labelfont=normalsize}            % padroniza o tamanho do título da figura para "small"
+
+\DeclareCaptionLabelSeparator{fill-newline}{\hfill\null\par}
+
+\captionsetup{%
+  format=hang,
+  labelformat=simple,
+  %labelsep=fill-newline,
+  singlelinecheck=false,
+  justification=RaggedRight,
+  position=top,
+}
+
+%--------------------------------------------------------------------------------------------------
+
+%%%%%%%%%%%%%%  COMANDOS NÃO UTILIZADOS QUE PODEM SER ÚTEIS   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\citeasnoun       % comando para citação direta
+%\refstepcounter   % comando mágico que incrementa o contador e torna possível utilizar o 
+%                  % /label e /ref corretamente.
+%\addtocounter{page}{-1}        % quanto comentei isso começou a contar desde a folha de rosto
+%\addcontentsline{toc}{subsubsection}{Exemplo \theexnum} % esta linha se encontrava após a sequência 
+%                                                        % acima "{\large Exemplo  \theexnum: #1" e 
+%                                                        % agora está depois de "\begin{exemplo}{titulo" 
+%                                                        % durante o texto para que o titulo apareça no sumário.
+%\setlength{\cftfignumwidth}{10em}    % coloca a distância de 10 em entre o número e a legenda 
+                                      % da figura na lista de figuras.
+% OBSERVAÇÃO: Se quiser que na lista de figura a legenda fique menor do que aquela que aparece 
+%             na figura, lá onde vc editou a figura coloque um colchete depois de caption como 
+%             segue: 
+%             \caption[Legenda que vc quer que apareça na lista de figuras]{Legenda da figura}
+%
+%\setlength{\cftfigindent}{1.5em}    % coloca identação na lista de figuras
+%--------------------------------------------------------------------------------------------------
+
+%%%%%%%% RENOMEAÇÃO DE COMANDOS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\be}{\begin{equation}}
+\newcommand{\ee}{\end{equation}}
+\newcommand{\bc}{\begin{center}}
+\newcommand{\ec}{\end{center}}
+\newcommand{\eq}{equa\c{c}\~{a}o}
+\newcommand{\eqs}{equa\c{c}\~{o}es}
+\newcommand{\sen}{\mathrm{sen}}
+\newcommand{\arcos}{{\mathrm cos}^{-1}}
+\newcommand{\tg}{\mathrm{tg}}
+\newcommand{\ds}{${\cal D}$-estabilidade}
+\newcommand{\de}{${\cal D}$}
+\newcommand{\Hi}{{\mathcal H}_{\infty}}
+\newcommand{\Hd}{{\mathcal H}_{2}}
+\newcommand{\Sr}{{$S(\gamma,r,\theta)$}}
+\newcommand{\Complex}{\mathbb C}
+\newcommand{\bproof}{\textbf{Prova: }}
+\newcommand{\eproof}{${ }\hfill  \rule{2mm}{2mm}$\\}
+\newcommand{\R}{\mathbb{R}}%Reais
+\newcommand{\K}{\mathbb{K}}
+\newcommand{\F}{\mathbb{F}}
+\DeclareMathOperator{\e}{e}
+\newtheorem{propriedade}{Propriedade}
+\DeclareMathOperator{\argmin}{arg\ min}
+\DeclareMathOperator{\sgn}{sgn}
+\newcommand{\bs}{\symbol{92}}   % barra invertida (backslash)
+%---------- Define os ambientes de teorema,lema,corolario,definição, etc. ---------------
+\newtheorem{teo}{Teorema}%[chapter]
+\newtheorem{lema}{Lema}[chapter]
+\newtheorem{cor}{Corolário}[chapter]
+\newtheorem{Def}{Definição}[chapter]
+\newtheorem{Prop}{Propriedade}[chapter]
+\newtheorem{Obs}{\bf Observação}        % qdo tiro o [chapter] a observação e o teorema ficam na forma sequencial
+%--------------------------------------------------------------------------------------------------
+
+%%%%%%%% RENOMEAÇÃO DE COMANDOS NÃO UTILIZADA QUE PODERÁ SER ÚTIL   %%%%%%%%%%%%%%%%%%%%%
+%\newcommand{\Br}{\mathrm{I\!R}}
+%\renewcommand{\cftfigfont}{Figura  } % Coloca a palavra Figura antes do número na lista de figuras.
+
+
+
+%%%%%%% Definindo o ambiente exemplo %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\newcounter{exnum}[section]        % cria um novo contador com o valor 1
+%\setcounter{exnum}{1}              % o "contador" é criado automaticamente, sendo necessário 
+                                   %% redefiní-lo pra que inclua o número da seção
+%\renewcommand{\theexnum}{\thesection.\arabic{exnum}}         % finalmente o novo ambiente. 
+                                   % Utilizo sloppypar para ter certeza de que ele iniciará 
+                                   % um novo parágrafo.
+% \newenvironment{chemeq}{\begin{sloppypar}\refstepcounter{chemeq}\hfill}{\hfill(Eq. \thechemeq)\end{sloppypar}}
+%\newenvironment{exemplo}[1]{
+   %\begin{sloppypar}\refstepcounter{exnum}\vspace{5mm}\qquad\textbf{\large Exemplo  \theexnum: #1}\\[2mm]} {${ }\hfill  \square$\\
+   %\end{sloppypar}
+                           %}
+%--------------------------------------------------------------------------------------------------
+
+
+
+%----- para fazer indice remissivo -------------------------------------------
+\thispagestyle{empty}
+\makeindex
+
+%------colocando niveis de subsecoes------------------------------------------
+\setcounter{secnumdepth}{5}                              % numero de subsecoes
+\setcounter{tocdepth}{5}                                 % numero de subsecoes no sumario
+
+%------se tiver problema com a hifenização de alguma palavra)
+\hyphenation{ En-gen-nha-ri-a com-pu-ta-ção } 
+
+%%------------------------------------------------------------------------------------------
+%%%%%%%%%%%%%%%%% COLOCAÇÃO DE CABEÇALHO  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand{\ABNTchapterfont}{\normalsize\fontfamily{ptm}\bfseries\selectfont} % Serve para colocar o título do capítulo no meio do texto
+\renewcommand{\ABNTsectionfont}{\tiny\fontfamily{ptm}\selectfont} % Tipo e Tamanho da fonte da seçãono meio do texto
+\renewcommand{\ABNTsubsectionfont}{\normalsize\fontfamily{ptm}\bfseries\selectfont}                      % Tamanho da fonte subseção
+\renewcommand{\ABNTsubsubsectionfont}{\Huge\fontfamily{ptm}\bfseries\itshape\selectfont}
+%Para o caso de ter mais uma subdivisão, que acho que nem é possível tem essa possibilidade
+%\renewcommand{\ABNTsubsubsectionfont}{\Huge\fontfamily{cmr}\fontseries{b}\selectfont}
+%\renewcommand{\ABNTsubsubsectionfont}{\Huge}
+                   % Tamanho da fonte subsubseção
+
+%\renewcommand{\ABNTchapterfont}{\bfseries\sffamily\fontseries{sbc}\selectfont}
+%\renewcommand{\ABNTtocchapterfont} Tamanho da fonte no sumário
+%\renewcommand{\ABNTchaptersize}{\fontfamily{ptm}\bfseries\selectfont}
+%\renewcommand{\ABNTsectionfont}{\normalsize\fontfamily{ptm}\bfseries\selectfont} % Serve para colocar o título do capítulo em negrito igual ao que aparece no sumário. 
+% Tamanhos das letras: \tiny, \scriptsize, \footnotesize, \small, \normalsize, \large, \Large, \huge, \Huge  
+%-------------------------------------------------------------------------------------------
+
+
+%%%%%%%%%%%%%%%%% Para alterar o tipo de letra da seção, subseção e subseção %%%%%%%%%%%%%%%%%
+\makeatletter
+    %\def\l@section#1#2{\pagebreak[3]
+       %\vskip 0.0em plus 0pt  % space above chapter line
+       %\@tempdima 1.3cm       % width of box holding chapter number
+       %\begingroup
+         %\parindent \z@ \rightskip \@pnumwidth
+         %\parfillskip -\@pnumwidth
+         %%\bfseries\textsc     
+	    %\fontfamily{cmss}\fontseries{sbc}\selectfont % Boldface removed. 2006nm %% <= \bfseries uncommented again
+         %\leavevmode          % TeX command to enter horizontal mode.
+         %#1\hfil \hbox to\@pnumwidth{\hss #2}\medskip\par%% <= \medskip inserted
+       %\endgroup}
+	
+	\def\l@subsection#1#2{\pagebreak[3]
+       \vskip -0.2em plus -1pt  % space above chapter line
+       \@tempdima 1.3cm       % width of box holding chapter number
+       \begingroup
+         \parindent \z@ \rightskip \@pnumwidth
+         \parfillskip -\@pnumwidth
+         %\bfseries\itshape    
+	    \fontfamily{ptm}\bfseries\selectfont % Boldface removed. 2006nm %% <= \bfseries uncommented again
+         \leavevmode          % TeX command to enter horizontal mode.
+         #1\hfil \hbox to\@pnumwidth{\hss #2}\medskip\par%% <= \medskip inserted
+       \endgroup}
+	
+	  \def\l@subsubsection#1#2{\pagebreak[3]
+       \vskip -0.2em plus -1pt  % space above chapter line
+       \@tempdima 1.3cm       % width of box holding chapter number
+       \begingroup
+         \parindent \z@ \rightskip \@pnumwidth
+         \parfillskip -\@pnumwidth
+         %\fontseries{b}                
+	    \fontfamily{ptm}\bfseries\itshape\selectfont % Boldface removed. 2006nm %% <= \bfseries uncommented again
+         \leavevmode                 % TeX command to enter horizontal mode.
+         #1\hfil \hbox to\@pnumwidth{\hss #2}\medskip\par%% <= \medskip inserted
+       \endgroup}
+    \makeatother
+%%------------------------------------------------------------------------------------------
+
+%%------------------------------------------------------------------------------------------
+\begin{document}                                         % Início do Documento
+
+%%------------------------------------------------------------------------------------------
+\input{./capa/capa}                                     % capa
+%%------------------------------------------------------------------------------------------
+\input{./rosto/folharosto}                              % Folha de rosto
+%%------------------------------------------------------------------------------------------
+\pagenumbering{arabic}\setcounter{page}{1}     % serve para não contar a ficha catalografica
+\input{./ficha_catalografica/ficha_catalografica}       % Ficha catalográfica
+%%------------------------------------------------------------------------------------------
+\input{./aprovacao/aprovacao}                           % Folha de aprovação da banca
+%%------------------------------------------------------------------------------------------
+\input{./dedicatoria/dedicatoria}                       % Dedicatória
+%%------------------------------------------------------------------------------------------
+\input{./agradecimentos/agradecimento}                  % Agradecimentos
+%%------------------------------------------------------------------------------------------
+\input{./epigrafe/epigrafe}                             % Epígrafe
+%%------------------------------------------------------------------------------------------
+%\input{./resumo/resumo}                                 % Resumo
+%%------------------------------------------------------------------------------------------
+\input{./abstract/abstract}                             % Abstract
+%%------------------------------------------------------------------------------------------
+
+% ----- Para fazer lista de figuras --------------------------------------------------------
+\renewcommand\listfigurename{Lista de Figuras \vspace{-0.5cm}} % Determina a distância entre 
+                                      % o título da lista de figuras e seus itens.
+\listoffigures
+
+% ----- Para fazer lista de tabelas --------------------------------------------------------
+%\renewcommand{\cfttabfont}{Tabela  } % Coloca a palavra "Tabela" antes do número da tabela, 
+                                      % na lista de tabelas.
+\renewcommand\listtablename{Lista de Tabelas \vspace{-0.5cm}} % Determina distância entre o 
+                                      % título da lista de tabelas e seus itens.
+\listoftables
+      
+% ----- Para fazer lista de siglas --------------------------------------------------------
+\input{./siglas/listadesiglas}
+
+% ----- Para fazer lista de símbolos --------------------------------------------------------
+\input{./simbolos/simbolos}
+
+% ----- Para fazer o Sumário ---------------------------------------------------------------
+\renewcommand{\cftdot}{\ensuremath{}}        % serve para tirar os pontinhos que ligam o nome 
+                                             % da  figura ao número da página (no Sumário)
+\cftsetindents{chapter}{0pt}{1.3cm}         % serve para alinhar o sumário:
+\cftsetindents{section}{0pt}{1.3cm}
+\cftsetindents{subsection}{0pt}{1.3cm}
+\cftsetindents{subsubsection}{0pt}{1.3cm}
+\def\contentsname{SUMÁRIO \vspace{-1.0cm}}   % serve para dar um novo nome para o sumário, 
+                                             % inclusive a forma de escrever e a distância 
+                                             % aos nomes dos capítulos.
+\tableofcontents                             % sumário
+
+% ----- Numerando a página inicial do capítulo 1 -------------------------------------------
+\setcounter{page}{16}         % Começa a contar para paginação a partir do capítulo 1, 
+                              % o número 14 é o número de folhas + 1, que contei antes da 
+                              % introdução a partir da folha de rosto. (a capa não conta)
+%%------------------------------------------------------------------------------------------
+\input{./capitulo_1/capitulo_1.tex}
+%-------------------------------------------------------------------------------------------
+\input{./capitulo_2/capitulo_2.tex}
+%-------------------------------------------------------------------------------------------
+\input{./capitulo_3/capitulo_3.tex}
+%-------------------------------------------------------------------------------------------
+\input{./capitulo_4/capitulo_4.tex}
+%-------------------------------------------------------------------------------------------
+%\input{./capitulo_5/capitulo_5.tex}
+%%-------------------------------------------------------------------------------------------
+%\input{./capitulo_6/capitulo_6.tex}
+%%------------------------------------------------------------------------------------------
+%
+%\citeoption{abnt-title-command=yes}
+%
+%\newcommand{\bibtextitlecommand}[2]{\textbf{#2}}         % Este comando coloca os títulos dos trabalhos em negrito
+\renewcommand{\bibname}{\hspace{1.3cm}REFERÊNCIAS~~~~~~~~~~~~}     % Este comando renomeia o nome da seção bibliográfica
+
+%%-------------------------------------------------------------------------------------------
+%\bibliographystyle{abnt-alf}                             % Estilo ABNT para referências no modo AUTOR-DATA
+
+%----------Me dá o controle sobre o capítulo de referências------------------------------
+\makeatletter
+\def\@makechapterhead#1{%
+  \vspace*{-40\p@}%
+  {\parindent \z@ \raggedright \normalfont
+    \ifnum \c@secnumdepth >\m@ne
+        \normalsize\bfseries \@chapapp\space \thechapter
+        \par\nobreak
+        \vskip 20\p@
+    \fi
+    \interlinepenalty\@M
+    \normalsize \bfseries #1\par\nobreak
+    \vskip 12\p@
+  }}
+\def\@makeschapterhead#1{%
+  \vspace*{40\p@}%
+  {\parindent \z@ \raggedright
+    \normalfont
+    \interlinepenalty\@M
+    \normalsize \centering \bfseries  #1\par\nobreak
+    \vskip 25\p@
+  }}
+\makeatother
+%-------------------------------------------------------------------------------------------
+
+\bibliography{./bibliografia/bibliografia1}              % Arquivo .bib com as referências
+%\begin{spacing}{0.0}    % Serve para controlar a margem superior da folha de referências.
+%\end{spacing}
+%-------------------------------------------------------------------------------------------
+
+\appendix
+\renewcommand{\ABNTtravessao}{-}
+\setlength{\ABNTanapindent}{0cm}
+\renewcommand{\ABNTaposindicativoanap}
+{\protect\centering\protect}
+
+%\renewcommand{\appendixname}{\hspace{1.3cm}APÊNDICE}
+%\input{./apa/apa.tex}
+%
+%\input{./apb/apb.tex}
+
+%----- Indice Remissivo-------------------------------------------------------
+\newpage
+\renewcommand{\indexname}{\hspace{1.3cm}ÍNDICE REMISSIVO~~~~~~~~~~~~\vspace{-0.3cm}}
+\printindex
+%\addcontentsline{toc}{chapter}{\textit{Índice Remissivo}}
+
+\end{document}                                           % Fim do Documento
+
