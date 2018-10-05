@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=latex 2017.9.28)  4 OCT 2018 13:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=latex 2017.9.28)  5 OCT 2018 17:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1081,7 +1081,7 @@ Overfull \hbox (2.97334pt too wide) in paragraph at lines 18--19
 , 2000; PAR-
  []
 
-) (./capitulo_2/capitulo_2.tex [17] [18]
+[17]) (./capitulo_2/capitulo_2.tex [18]
 Cap\'{\i }tulo 2.
 File: capitulo_2/w_s_location.eps Graphic file (type eps)
 <capitulo_2/w_s_location.eps> [19
@@ -1143,13 +1143,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7277 strings out of 492996
- 105494 string characters out of 6132730
- 186093 words of memory out of 5000000
- 10519 multiletter control sequences out of 15000+600000
+ 7282 strings out of 492996
+ 105616 string characters out of 6132730
+ 186143 words of memory out of 5000000
+ 10524 multiletter control sequences out of 15000+600000
  57027 words of font info for 113 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  36i,12n,41p,1872b,423s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /Users/joaotrevizoliesteves/Desktop/mestrado_joao/.texpadtmp/
-modelo.dvi (38 pages, 97908 bytes).
+modelo.dvi (38 pages, 98604 bytes).

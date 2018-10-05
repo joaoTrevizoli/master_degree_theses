@@ -123,6 +123,14 @@
 {HECHT-NIELSEN, R. Theory of the backpropagation neural network. In:
   \emph{Neural networks for perception}. [S.l.]: Elsevier, 1992. p. 65--93.}
 
+\bibitem[Jha et al. 2018]{jha2018evaluation}
+\abntrefinfo{Jha et al.}{JHA et al.}{2018}
+{JHA, S.~K.; SHRESTHA, D.~L.; STADNYK, T.~A.; COULIBALY, P. Evaluation of
+  ensemble precipitation forecasts generated through post-processing in a
+  canadian catchment.
+\emph{Hydrology and Earth System Sciences}, Copernicus GmbH, v.~22, n.~3, p.
+  1957--1969, 2018.}
+
 \bibitem[Karlik e Olgac 2011]{karlik2011performance}
 \abntrefinfo{Karlik e Olgac}{KARLIK; OLGAC}{2011}
 {KARLIK, B.; OLGAC, A.~V. Performance analysis of various activation functions
