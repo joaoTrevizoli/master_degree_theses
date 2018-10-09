@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=latex 2017.9.28)  5 OCT 2018 17:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=latex 2017.8.20)  9 OCT 2018 17:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1070,32 +1070,32 @@ Cap\'{\i }tulo 1.
 
 
 ]
-Overfull \hbox (46.73244pt too wide) in paragraph at lines 14--15
+Overfull \hbox (46.73244pt too wide) in paragraph at lines 16--17
 []\T1/ptm/m/n/12 More re-cen-tly re-se-ar-chers have been ap-pro-a-ching such p
 ro-blem with ar-ti-fi-cial neu-ral networks(ANN),
  []
 
-
-Overfull \hbox (2.97334pt too wide) in paragraph at lines 18--19
+[17]
+Overfull \hbox (2.97334pt too wide) in paragraph at lines 58--59
 \T1/ptm/m/n/12 FRENCH; KRA-JEWSKI; CUY-KEN-DALL, 1992; TOTH; BRATH; MON-TA-NARI
 , 2000; PAR-
  []
 
-[17]) (./capitulo_2/capitulo_2.tex [18]
+[18]) (./capitulo_2/capitulo_2.tex [19]
 Cap\'{\i }tulo 2.
 File: capitulo_2/w_s_location.eps Graphic file (type eps)
-<capitulo_2/w_s_location.eps> [19
+<capitulo_2/w_s_location.eps> [20
 
-] [20] [21] [22] [23]
+] [21] [22] [23] [24]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[24]
+[25]
 File: capitulo_2/diagram_ann.eps Graphic file (type eps)
- <capitulo_2/diagram_ann.eps> [25] [26] [27]
+ <capitulo_2/diagram_ann.eps> [26] [27] [28]
 File: capitulo_2/time_steps.eps Graphic file (type eps)
  <capitulo_2/time_steps.eps>
-[28]) (./capitulo_3/capitulo_3.tex [29]
+[29]) (./capitulo_3/capitulo_3.tex [30]
 Cap\'{\i }tulo 3.
 File: capitulo_3/campo_moral_normal.eps Graphic file (type eps)
 <capitulo_3/campo_moral_normal.eps>
@@ -1105,33 +1105,33 @@ Overfull \hbox (7.28467pt too wide) in paragraph at lines 11--13
 [][][] 
  []
 
-[30
+[31
 
 ]
 File: capitulo_3/estimate_accuracy_2.eps Graphic file (type eps)
  <capitulo_3/estimate_accuracy_2.eps>
 File: capitulo_3/forecasting_accuracy2.eps Graphic file (type eps)
 
-<capitulo_3/forecasting_accuracy2.eps> [31]
+<capitulo_3/forecasting_accuracy2.eps> [32]
 File: capitulo_3/general_table.eps Graphic file (type eps)
  <capitulo_3/general_table.eps>
 File: capitulo_3/continentality_effect.eps Graphic file (type eps)
 
-<capitulo_3/continentality_effect.eps> [32]
+<capitulo_3/continentality_effect.eps> [33]
 File: capitulo_3/topographic_effect.eps Graphic file (type eps)
 
-<capitulo_3/topographic_effect.eps> [33]
+<capitulo_3/topographic_effect.eps> [34]
 File: capitulo_3/precipitation_accuracy.eps Graphic file (type eps)
 
-<capitulo_3/precipitation_accuracy.eps> [34]) (./capitulo_4/capitulo_4.tex
-[35]
+<capitulo_3/precipitation_accuracy.eps> [35]) (./capitulo_4/capitulo_4.tex
+[36]
 Cap\'{\i }tulo 4.
 ) (/Users/joaotrevizoliesteves/Desktop/mestrado_joao/.texpadtmp/modelo.bbl
-[36
+[37
 
-] [37
+] [38
 
-] [38] [39]) [40]
+] [39] [40] [41]) [42]
 (/Users/joaotrevizoliesteves/Desktop/mestrado_joao/.texpadtmp/modelo.ind)
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
@@ -1143,13 +1143,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7282 strings out of 492996
- 105616 string characters out of 6132730
- 186143 words of memory out of 5000000
- 10524 multiletter control sequences out of 15000+600000
+ 7317 strings out of 492996
+ 106565 string characters out of 6132730
+ 186537 words of memory out of 5000000
+ 10559 multiletter control sequences out of 15000+600000
  57027 words of font info for 113 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 36i,12n,41p,1872b,423s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,12n,41p,1872b,436s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /Users/joaotrevizoliesteves/Desktop/mestrado_joao/.texpadtmp/
-modelo.dvi (38 pages, 98604 bytes).
+modelo.dvi (40 pages, 106584 bytes).

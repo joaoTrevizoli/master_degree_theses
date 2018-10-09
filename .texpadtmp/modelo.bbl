@@ -12,12 +12,27 @@
   irrigation and drainage paper 56.
 \emph{FAO, Rome}, v.~300, n.~9, p. D05109, 1998.}
 
+\bibitem[Alotaibi et al. 2018]{alotaibi2018future}
+\abntrefinfo{Alotaibi et al.}{ALOTAIBI et al.}{2018}
+{ALOTAIBI, K.; GHUMMAN, A.; HAIDER, H.; GHAZAW, Y.; SHAFIQUZZAMAN, M. Future
+  predictions of rainfall and temperature using gcm and ann for arid regions: A
+  case study for the qassim region, saudi arabia.
+\emph{Water}, Multidisciplinary Digital Publishing Institute, v.~10, n.~9,
+  p.~1260, 2018.}
+
 \bibitem[Alvares et al. 2013]{alvares2013modeling}
 \abntrefinfo{Alvares et al.}{ALVARES et al.}{2013}
 {ALVARES, C.~A.; STAPE, J.~L.; SENTELHAS, P.~C.; GON{\c{C}}ALVES, J.~L. de M.
   Modeling monthly mean air temperature for brazil.
 \emph{Theoretical and applied climatology}, Springer, v.~113, n.~3-4, p.
   407--427, 2013.}
+
+\bibitem[Basheer e Hajmeer 2000]{basheer2000artificial}
+\abntrefinfo{Basheer e Hajmeer}{BASHEER; HAJMEER}{2000}
+{BASHEER, I.~A.; HAJMEER, M. Artificial neural networks: fundamentals,
+  computing, design, and application.
+\emph{Journal of microbiological methods}, Elsevier, v.~43, n.~1, p. 3--31,
+  2000.}
 
 \bibitem[Box, Jenkins e Reinsel 1976]{box1976time}
 \abntrefinfo{Box, Jenkins e Reinsel}{BOX; JENKINS; REINSEL}{1976}
@@ -145,6 +160,12 @@
   simulation.
 \emph{Journal of hydrology}, Elsevier, v.~394, n.~3, p. 305--314, 2010.}
 
+\bibitem[Krogh 2008]{krogh2008artificial}
+\abntrefinfo{Krogh}{KROGH}{2008}
+{KROGH, A. What are artificial neural networks?
+\emph{Nature biotechnology}, Nature Publishing Group, v.~26, n.~2, p.~195,
+  2008.}
+
 \bibitem[Kuligowski e Barros 1998]{kuligowski1998experiments}
 \abntrefinfo{Kuligowski e Barros}{KULIGOWSKI; BARROS}{1998a}
 {KULIGOWSKI, R.~J.; BARROS, A.~P. Experiments in short-term precipitation
@@ -168,6 +189,13 @@
 {LUK, K.; BALL, J.; SHARMA, A. A study of optimal model lag and spatial inputs
   to artificial neural network for rainfall forecasting.
 \emph{Journal of Hydrology}, Elsevier, v.~227, n.~1, p. 56--65, 2000.}
+
+\bibitem[McCulloch e Pitts 1943]{mcculloch1943logical}
+\abntrefinfo{McCulloch e Pitts}{MCCULLOCH; PITTS}{1943}
+{MCCULLOCH, W.~S.; PITTS, W. A logical calculus of the ideas immanent in
+  nervous activity.
+\emph{The bulletin of mathematical biophysics}, Springer, v.~5, n.~4, p.
+  115--133, 1943.}
 
 \bibitem[Medvigy e Beaulieu 2012]{medvigy2012trends}
 \abntrefinfo{Medvigy e Beaulieu}{MEDVIGY; BEAULIEU}{2012}
@@ -205,6 +233,15 @@
 \emph{Stochastic Environmental Research and Risk Assessment}, Springer, v.~29,
   n.~5, p. 1317--1329, 2015.}
 
+\bibitem[Prein et al. 2015]{prein2015review}
+\abntrefinfo{Prein et al.}{PREIN et al.}{2015}
+{PREIN, A.~F.; LANGHANS, W.; FOSSER, G.; FERRONE, A.; BAN, N.; GOERGEN, K.;
+  KELLER, M.; T{\"O}LLE, M.; GUTJAHR, O.; FESER, F. et al. A review on regional
+  convection-permitting climate modeling: Demonstrations, prospects, and
+  challenges.
+\emph{Reviews of geophysics}, Wiley Online Library, v.~53, n.~2, p. 323--361,
+  2015.}
+
 \bibitem[Rajurkar, Kothyari e Chaube 2002]{rajurkar2002artificial}
 \abntrefinfo{Rajurkar, Kothyari e Chaube}{RAJURKAR; KOTHYARI; CHAUBE}{2002}
 {RAJURKAR, M.; KOTHYARI, U.; CHAUBE, U. Artificial neural networks for daily
@@ -229,6 +266,13 @@
 {RIVERO, C.~R.; PATI{\~N}O, H.~D.; PUCHETA, J.~A. Short-term rainfall time
   series prediction with incomplete data. In:  IEEE. \emph{Neural Networks
   (IJCNN), 2015 International Joint Conference on}. [S.l.], 2015. p.~1--6.}
+
+\bibitem[Rosenblatt 1958]{rosenblatt1958perceptron}
+\abntrefinfo{Rosenblatt}{ROSENBLATT}{1958}
+{ROSENBLATT, F. The perceptron: a probabilistic model for information storage
+  and organization in the brain.
+\emph{Psychological review}, American Psychological Association, v.~65, n.~6,
+  p.~386, 1958.}
 
 \bibitem[Salati et al. 1979]{salati1979recycling}
 \abntrefinfo{Salati et al.}{SALATI et al.}{1979}
@@ -307,6 +351,12 @@
   variability and climatic controls.
 \emph{Journal of Geophysical Research: Atmospheres}, Wiley Online Library,
   v.~108, n.~D6, 2003.}
+
+\bibitem[Walczak 2019]{walczak2019artificial}
+\abntrefinfo{Walczak}{WALCZAK}{2019}
+{WALCZAK, S. Artificial neural networks. In:  \emph{Advanced Methodologies and
+  Technologies in Artificial Intelligence, Computer Simulation, and
+  Human-Computer Interaction}. [S.l.]: IGI Global, 2019. p. 40--53.}
 
 \bibitem[Wang 2003]{wang2003artificial}
 \abntrefinfo{Wang}{WANG}{2003}

@@ -1,10 +1,10 @@
 \select@language {brazil}
 \contentsline {chapter}{\numberline {1}Introduction}{16}
-\contentsline {chapter}{\numberline {2}Material and Methods}{19}
-\contentsline {section}{\numberline {2.1}Dataset}{19}
-\contentsline {section}{\numberline {2.2}Missing Data Recovery}{20}
-\contentsline {section}{\numberline {2.3}Weather Indexes Estimation}{22}
-\contentsline {section}{\numberline {2.4}Binary Precipitation ANN}{24}
-\contentsline {chapter}{\numberline {3}RESULTS AND DISCUSSION }{30}
-\contentsline {chapter}{\numberline {4}CONCLUSION}{36}
-\contentsline {chapter}{\hspace {1.3cm}REFER\IeC {\^E}NCIAS~~~~~~~~~~~~}{37}
+\contentsline {chapter}{\numberline {2}Material and Methods}{20}
+\contentsline {section}{\numberline {2.1}Dataset}{20}
+\contentsline {section}{\numberline {2.2}Missing Data Recovery}{21}
+\contentsline {section}{\numberline {2.3}Weather Indexes Estimation}{23}
+\contentsline {section}{\numberline {2.4}Binary Precipitation ANN}{25}
+\contentsline {chapter}{\numberline {3}RESULTS AND DISCUSSION }{31}
+\contentsline {chapter}{\numberline {4}CONCLUSION}{37}
+\contentsline {chapter}{\hspace {1.3cm}REFER\IeC {\^E}NCIAS~~~~~~~~~~~~}{38}
