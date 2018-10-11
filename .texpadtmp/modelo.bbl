@@ -203,6 +203,11 @@
   coefficients of variation since 1984.
 \emph{Journal of Climate}, v.~25, n.~4, p. 1330--1339, 2012.}
 
+\bibitem[Minsky e Papert 1969]{minsky1969perceptrons}
+\abntrefinfo{Minsky e Papert}{MINSKY; PAPERT}{1969}
+{MINSKY, M.; PAPERT, S. \emph{Perceptrons: An essay in computational geometry}.
+  [S.l.]: Cambridge, MA: MIT Press, 1969.}
+
 \bibitem[Mishra e Sharma 2018]{mishra2018rainfall}
 \abntrefinfo{Mishra e Sharma}{MISHRA; SHARMA}{2018}
 {MISHRA, S.~K.; SHARMA, N. Rainfall forecasting using backpropagation neural
@@ -249,6 +254,12 @@
 \emph{Hydrological Sciences Journal}, Taylor \& Francis, v.~47, n.~6, p.
   865--877, 2002.}
 
+\bibitem[Ramchoun et al. 2016]{ramchoun2016multilayer}
+\abntrefinfo{Ramchoun et al.}{RAMCHOUN et al.}{2016}
+{RAMCHOUN, H.; AMINE, M.; IDRISSI, J.; GHANOU, Y.; ETTAOUIL, M. Multilayer
+  perceptron: Architecture optimization and training.
+\emph{IJIMAI}, v.~4, n.~1, p. 26--30, 2016.}
+
 \bibitem[Ram{\'\i}rez, Ferreira e Velho 2006]{ramirez2006linear}
 \abntrefinfo{Ram{\'\i}rez, Ferreira e Velho}{RAM{\'I}REZ; FERREIRA;
   VELHO}{2006}
@@ -273,6 +284,12 @@
   and organization in the brain.
 \emph{Psychological review}, American Psychological Association, v.~65, n.~6,
   p.~386, 1958.}
+
+\bibitem[Rumelhart, Hinton e Williams 1985]{rumelhart1985learning}
+\abntrefinfo{Rumelhart, Hinton e Williams}{RUMELHART; HINTON; WILLIAMS}{1985}
+{RUMELHART, D.~E.; HINTON, G.~E.; WILLIAMS, R.~J. \emph{Learning internal
+  representations by error propagation}.
+[S.l.], 1985.}
 
 \bibitem[Salati et al. 1979]{salati1979recycling}
 \abntrefinfo{Salati et al.}{SALATI et al.}{1979}
@@ -362,6 +379,19 @@
 \abntrefinfo{Wang}{WANG}{2003}
 {WANG, S.-C. Artificial neural network. In:  \emph{Interdisciplinary Computing
   in Java Programming}. [S.l.]: Springer, 2003. p. 81--100.}
+
+\bibitem[Werbos 1974]{Werbos:74}
+\abntrefinfo{Werbos}{WERBOS}{1974}
+{WERBOS, P.~J.
+\emph{Beyond Regression: New Tools for Prediction and Analysis in the
+  Behavioral Sciences}.
+Tese (Doutorado) --- Harvard University, 1974.}
+
+\bibitem[Widrow e Lehr 1990]{widrow199030}
+\abntrefinfo{Widrow e Lehr}{WIDROW; LEHR}{1990}
+{WIDROW, B.; LEHR, M.~A. 30 years of adaptive neural networks: perceptron,
+  madaline, and backpropagation.
+\emph{Proceedings of the IEEE}, IEEE, v.~78, n.~9, p. 1415--1442, 1990.}
 
 \bibitem[WMO 1989]{wmo1989calculation}
 \abntrefinfo{WMO}{WMO}{1989}

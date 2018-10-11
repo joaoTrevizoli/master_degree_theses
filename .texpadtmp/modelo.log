@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=latex 2017.8.20)  9 OCT 2018 22:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=latex 2017.8.20)  10 OCT 2018 22:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -999,32 +999,24 @@ File: LogoFundo.eps Graphic file (type eps)
 
 <LogoFundo.eps> [1
 
-]) (./rosto/folharosto.tex)
-(./ficha_catalografica/ficha_catalografica.tex
+]) (./rosto/folharosto.tex) (./aprovacao/aprovacao.tex
 File: LogoFundo.eps Graphic file (type eps)
- <LogoFundo.eps> [1
 
-]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
- [1])
-(./aprovacao/aprovacao.tex) (./dedicatoria/dedicatoria.tex [2
+<LogoFundo.eps> [1
+
+]) (./dedicatoria/dedicatoria.tex [2
 
 
 
 ])
 (./agradecimentos/agradecimento.tex
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 9.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 8.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 8.
 )
 (./epigrafe/epigrafe.tex [3
 
@@ -1070,18 +1062,18 @@ Cap\'{\i }tulo 1.
 
 
 ]
-Overfull \hbox (43.73244pt too wide) in paragraph at lines 16--17
+Overfull \hbox (9.74866pt too wide) in paragraph at lines 16--17
 []\T1/ptm/m/n/12 More re-cen-tly re-se-ar-chers have been ap-pro-a-ching such p
-ro-blem with ar-ti-fi-cial neu-ral networks(ANN)
+ro-blem with ar-ti-fi-cial neu-ral networks
  []
 
-[17]
-Overfull \hbox (2.97334pt too wide) in paragraph at lines 57--58
+[17] [18]
+Overfull \hbox (2.97334pt too wide) in paragraph at lines 63--64
 \T1/ptm/m/n/12 FRENCH; KRA-JEWSKI; CUY-KEN-DALL, 1992; TOTH; BRATH; MON-TA-NARI
 , 2000; PAR-
  []
 
-[18]) (./capitulo_2/capitulo_2.tex [19]
+) (./capitulo_2/capitulo_2.tex [19]
 Cap\'{\i }tulo 2.
 File: capitulo_2/w_s_location.eps Graphic file (type eps)
 <capitulo_2/w_s_location.eps> [20
@@ -1143,13 +1135,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7317 strings out of 492996
- 106565 string characters out of 6132730
- 186537 words of memory out of 5000000
- 10559 multiletter control sequences out of 15000+600000
- 57027 words of font info for 113 fonts, out of 8000000 for 9000
+ 7307 strings out of 492996
+ 106588 string characters out of 6132730
+ 186870 words of memory out of 5000000
+ 10553 multiletter control sequences out of 15000+600000
+ 47179 words of font info for 86 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 36i,12n,41p,1872b,436s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,12n,41p,1872b,437s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /Users/joaotrevizoliesteves/Desktop/mestrado_joao/.texpadtmp/
-modelo.dvi (40 pages, 107264 bytes).
+modelo.dvi (39 pages, 107868 bytes).
