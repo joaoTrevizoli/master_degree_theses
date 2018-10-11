@@ -1,14 +1,14 @@
 \select@language {brazil}
-\contentsline {figure}{\numberline {1}{\ignorespaces Weather stations locations\relax }}{21}
-\contentsline {figure}{\numberline {2}{\ignorespaces Feedforward MLP structure\relax }}{26}
-\contentsline {figure}{\numberline {3}{\ignorespaces Diagram of the time-steps concept \relax }}{29}
-\contentsline {figure}{\numberline {4}{\ignorespaces Thornthwaite Water Balance and Normal Temperature\relax }}{31}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Campo Mour\IeC {\~a}o}}}{31}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Jaguaruana}}}{31}
-\contentsline {figure}{\numberline {5}{\ignorespaces Summary of ANNs autoassociative (a) and heteroassociative(b) performance\relax }}{32}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {autoassociative}}}{32}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {heteroassociative}}}{32}
-\contentsline {figure}{\numberline {6}{\ignorespaces ANNs accuracy percentage performance\relax }}{33}
-\contentsline {figure}{\numberline {7}{\ignorespaces The effect of continentality on the ANNs accuracy at all seasons.\relax }}{34}
-\contentsline {figure}{\numberline {8}{\ignorespaces The effect of altitude on the ANNs accuracy at all seasons.\relax }}{34}
-\contentsline {figure}{\numberline {9}{\ignorespaces The effect of precipitation volumes on ANN models\relax }}{36}
+\contentsline {figure}{\numberline {1}{\ignorespaces Weather stations locations\relax }}{22}
+\contentsline {figure}{\numberline {2}{\ignorespaces Feedforward MLP structure\relax }}{27}
+\contentsline {figure}{\numberline {3}{\ignorespaces Diagram of the time-steps concept \relax }}{30}
+\contentsline {figure}{\numberline {4}{\ignorespaces Thornthwaite Water Balance and Normal Temperature\relax }}{32}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Campo Mour\IeC {\~a}o}}}{32}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Jaguaruana}}}{32}
+\contentsline {figure}{\numberline {5}{\ignorespaces Summary of ANNs autoassociative (a) and heteroassociative(b) performance\relax }}{33}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {autoassociative}}}{33}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {heteroassociative}}}{33}
+\contentsline {figure}{\numberline {6}{\ignorespaces ANNs accuracy percentage performance\relax }}{34}
+\contentsline {figure}{\numberline {7}{\ignorespaces The effect of continentality on the ANNs accuracy at all seasons.\relax }}{35}
+\contentsline {figure}{\numberline {8}{\ignorespaces The effect of altitude on the ANNs accuracy at all seasons.\relax }}{35}
+\contentsline {figure}{\numberline {9}{\ignorespaces The effect of precipitation volumes on ANN models\relax }}{37}
