@@ -31,7 +31,7 @@ stroke
 grestore
 \end{filecontents*}
 
-\documentclass[dvips,abntfigtabnum,capchap,ruledheader,anapcustomindent]{abnt} 
+\documentclass[dvips,abntfigtabnum,capchap,anapcustomindent,12pt]{abnt} 
 %\documentclass[dvips,abntfigtabnum,capchap,ruledheader,anapcustomindent,twoside]{abnt} 
 
 % OBSERVAÇÕES:
@@ -47,6 +47,8 @@ grestore
 \usepackage{amsthm,amsmath,amssymb,mathrsfs,amsbsy,mathptmx}
 \usepackage[utf8]{inputenc}
 
+
+\usepackage{helvet}
 \usepackage{chngcntr}                       % para ajustar o contador de equações
 \usepackage[T1]{fontenc}                    % uso de Font Encoding
 \usepackage[normalem]{ulem}                 % usado para sublinhar textos
@@ -91,7 +93,7 @@ grestore
 \settowidth{\mylen}{\bfseries\cftfigpresnum\cftfigaftersnum}
 \addtolength{\cftfignumwidth}{\mylen}
 %                                           ------------------------------------------------
-\renewcommand{\cfttabpresnum}{Table }      % Para colocar a palavra "Tabela" na lista de tabelas,
+\renewcommand{\cfttabpresnum}{Table}      % Para colocar a palavra "Tabela" na lista de tabelas,
                                             % antes do número e identar corretamente contents
 \settowidth{\mylen}{\bfseries\cfttabpresnum\cfttabaftersnum}
 \addtolength{\cfttabnumwidth}{\mylen}
@@ -161,6 +163,8 @@ grestore
 %--------------------------------------------------------------------------------------------------
 
 %%%%%%%% RENOMEAÇÃO DE COMANDOS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand{\rmdefault}{phv} % Arial
+\renewcommand{\sfdefault}{phv} % Arial
 \newcommand{\be}{\begin{equation}}
 \newcommand{\ee}{\end{equation}}
 \newcommand{\bc}{\begin{center}}
@@ -172,7 +176,7 @@ grestore
 \newcommand{\tg}{\mathrm{tg}}
 \newcommand{\ds}{${\cal D}$-estabilidade}
 \newcommand{\de}{${\cal D}$}
-\newcommand{\Hi}{{\mathcal H}_{\infty}}
+\newcommand{\Hi}{{\mathcal H}_{\infty}} 
 \newcommand{\Hd}{{\mathcal H}_{2}}
 \newcommand{\Sr}{{$S(\gamma,r,\theta)$}}
 \newcommand{\Complex}{\mathbb C}
@@ -185,19 +189,20 @@ grestore
 \newtheorem{propriedade}{Propriedade}
 \DeclareMathOperator{\argmin}{arg\ min}
 \DeclareMathOperator{\sgn}{sgn}
+\DeclareMathSizes{12}{13}{13}{13}
 \newcommand{\bs}{\symbol{92}}   % barra invertida (backslash)
 %---------- Define os ambientes de teorema,lema,corolario,definição, etc. ---------------
 \newtheorem{teo}{Teorema}%[chapter]
-\newtheorem{lema}{Lema}[chapter]
+\newtheorem{lema}{Lema}[chapter]        
 \newtheorem{cor}{Corolário}[chapter]
 \newtheorem{Def}{Definição}[chapter]
 \newtheorem{Prop}{Propriedade}[chapter]
 \newtheorem{Obs}{\bf Observação}        % qdo tiro o [chapter] a observação e o teorema ficam na forma sequencial
-%--------------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------                  f-------------------------
 
 %%%%%%%% RENOMEAÇÃO DE COMANDOS NÃO UTILIZADA QUE PODERÁ SER ÚTIL   %%%%%%%%%%%%%%%%%%%%%
 %\newcommand{\Br}{\mathrm{I\!R}}
-%\renewcommand{\cftfigfont}{Figura  } % Coloca a palavra Figura antes do número na lista de figuras.
+%\renewcommand{\cftfigfont}{Figure} % Coloca a palavra Figura antes do número na lista de figuras.
 
 
 
@@ -230,10 +235,10 @@ grestore
 
 %%------------------------------------------------------------------------------------------
 %%%%%%%%%%%%%%%%% COLOCAÇÃO DE CABEÇALHO  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\renewcommand{\ABNTchapterfont}{\normalsize\fontfamily{ptm}\bfseries\selectfont} % Serve para colocar o título do capítulo no meio do texto
-\renewcommand{\ABNTsectionfont}{\tiny\fontfamily{ptm}\selectfont} % Tipo e Tamanho da fonte da seçãono meio do texto
-\renewcommand{\ABNTsubsectionfont}{\normalsize\fontfamily{ptm}\bfseries\selectfont}                      % Tamanho da fonte subseção
-\renewcommand{\ABNTsubsubsectionfont}{\Huge\fontfamily{ptm}\bfseries\itshape\selectfont}
+\renewcommand{\ABNTchapterfont}{\normalsize\fontfamily{phv}\bfseries\selectfont} % Serve para colocar o título do capítulo no meio do texto
+\renewcommand{\ABNTsectionfont}{\tiny\fontfamily{phv}\selectfont} % Tipo e Tamanho da fonte da seçãono meio do texto
+\renewcommand{\ABNTsubsectionfont}{\normalsize\fontfamily{phv}\bfseries\selectfont}                      % Tamanho da fonte subseção
+\renewcommand{\ABNTsubsubsectionfont}{\Huge\fontfamily{phv}\bfseries\itshape\selectfont}
 %Para o caso de ter mais uma subdivisão, que acho que nem é possível tem essa possibilidade
 %\renewcommand{\ABNTsubsubsectionfont}{\Huge\fontfamily{cmr}\fontseries{b}\selectfont}
 %\renewcommand{\ABNTsubsubsectionfont}{\Huge}
@@ -268,7 +273,7 @@ grestore
          \parindent \z@ \rightskip \@pnumwidth
          \parfillskip -\@pnumwidth
          %\bfseries\itshape    
-	    \fontfamily{ptm}\bfseries\selectfont % Boldface removed. 2006nm %% <= \bfseries uncommented again
+	    \fontfamily{phv}\bfseries\selectfont % Boldface removed. 2006nm %% <= \bfseries uncommented again
          \leavevmode          % TeX command to enter horizontal mode.
          #1\hfil \hbox to\@pnumwidth{\hss #2}\medskip\par%% <= \medskip inserted
        \endgroup}
@@ -280,7 +285,7 @@ grestore
          \parindent \z@ \rightskip \@pnumwidth
          \parfillskip -\@pnumwidth
          %\fontseries{b}                
-	    \fontfamily{ptm}\bfseries\itshape\selectfont % Boldface removed. 2006nm %% <= \bfseries uncommented again
+	    \fontfamily{phv}\bfseries\itshape\selectfont % Boldface removed. 2006nm %% <= \bfseries uncommented again
          \leavevmode                 % TeX command to enter horizontal mode.
          #1\hfil \hbox to\@pnumwidth{\hss #2}\medskip\par%% <= \medskip inserted
        \endgroup}

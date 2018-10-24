@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=latex 2017.9.28)  15 OCT 2018 07:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=latex 2017.8.20)  23 OCT 2018 23:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -899,27 +899,27 @@ LaTeX Warning: Label `sec:linux' multiply defined.
 )
 \openout1 = `modelo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 291.
-LaTeX Font Info:    ... okay on input line 291.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 291.
-LaTeX Font Info:    ... okay on input line 291.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 291.
-LaTeX Font Info:    ... okay on input line 291.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 291.
-LaTeX Font Info:    ... okay on input line 291.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 291.
-LaTeX Font Info:    ... okay on input line 291.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 291.
-LaTeX Font Info:    ... okay on input line 291.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 291.
- (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1ptm.fd
-File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 296.
+LaTeX Font Info:    ... okay on input line 296.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 296.
+LaTeX Font Info:    ... okay on input line 296.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 296.
+LaTeX Font Info:    ... okay on input line 296.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 296.
+LaTeX Font Info:    ... okay on input line 296.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 296.
+LaTeX Font Info:    ... okay on input line 296.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 296.
+LaTeX Font Info:    ... okay on input line 296.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 296.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 \AtBeginShipoutBox=\box64
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package caption Info: We need package `ragged2e' on input line 291.
+Package caption Info: We need package `ragged2e' on input line 296.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/ms/ragged2e.sty
 Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
@@ -947,8 +947,8 @@ LaTeX Info: Redefining \selectfont on input line 126.
 ) (./capa/capa.tex
 File: LogoUNESP.eps Graphic file (type eps)
  <LogoUNESP.eps>
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 8.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 8.
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 8.
 
 
@@ -978,25 +978,26 @@ LaTeX Font Info:    Try loading font information for OT1+ptm on input line 8.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
 LaTeX Font Info:    Try loading font information for U+rsfs on input line 8.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 19.
+
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <13> not available
+(Font)              size <12> substituted on input line 8.
+
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 19.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
 File: LogoFundo.eps Graphic file (type eps)
-
 <LogoFundo.eps> [1
 
 ]) (./rosto/folharosto.tex) (./aprovacao/aprovacao.tex
@@ -1004,29 +1005,34 @@ File: LogoFundo.eps Graphic file (type eps)
 
 <LogoFundo.eps> [1
 
-]) (./dedicatoria/dedicatoria.tex [2
+] [2]) (./dedicatoria/dedicatoria.tex
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 18.
+ [3
 
 
 
 ])
 (./agradecimentos/agradecimento.tex
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 8.
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 8.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsptm.fd
-File: omsptm.fd 
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsphv.fd
+File: omsphv.fd 
 )
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 8.
 )
-(./epigrafe/epigrafe.tex [3
+(./epigrafe/epigrafe.tex [4
 
 
 ]
-LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 11.
-) (./abstract/abstract.tex [4
+LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <12> not available
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 11.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <12> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 11.
+) (./abstract/abstract.tex [5
 
-] [5
+] [6
 
 
 ])
@@ -1035,101 +1041,114 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
 \openout5 = `modelo.lof'.
 
 
-[6
+[7
 
-] (/Users/joaotrevizoliesteves/Desktop/mestrado_joao/.texpadtmp/modelo.lot)
+] (/Users/joaotrevizoliesteves/Desktop/mestrado_joao/.texpadtmp/modelo.lot
+Overfull \hbox (1.81558pt too wide) in paragraph at lines 2--2
+ [][] []\T1/phv/m/n/12 Geographical lo-ca-ti-ons of Bra-zi-lian ground-based co
+n-ven-ti-o-nal we- 
+ []
+
+)
 \tf@lot=\write6
 \openout6 = `modelo.lot'.
 
+ (./siglas/listadesiglas.tex [8
 
-(./siglas/listadesiglas.tex [7
+]
+Overfull \hbox (9.72775pt too wide) in paragraph at lines 10--40
+[] 
+ []
 
-]) (./simbolos/simbolos.tex [8
+) (./simbolos/simbolos.tex [9
 
-] [9
+] [10
 
-]) [10]
-(/Users/joaotrevizoliesteves/Desktop/mestrado_joao/.texpadtmp/modelo.toc)
+] [11])
+Overfull \hbox (1.45299pt too wide) in paragraph at lines 72--336
+[]  
+ []
+
+[12] (/Users/joaotrevizoliesteves/Desktop/mestrado_joao/.texpadtmp/modelo.toc)
 \tf@toc=\write7
 \openout7 = `modelo.toc'.
 
 
-[11
+[13
 
 ] (./capitulo_1/capitulo_1.tex
 Cap\'{\i }tulo 1.
 [16
 
 
-]
-Overfull \hbox (9.74866pt too wide) in paragraph at lines 17--18
-[]\T1/ptm/m/n/12 More re-cen-tly re-se-ar-chers have been ap-pro-a-ching such p
-ro-blem with ar-ti-fi-cial neu-ral networks
- []
-
-[17] [18]
-Overfull \hbox (11.28471pt too wide) in paragraph at lines 33--34
-[]\T1/ptm/m/n/12 To si-mu-late cha-o-tic rain-fall events in the su-burbs of Sy
-d-ney, Aus-tra-lia (NAS-SERI; ASGHARI;
- []
-
-[19]
-Overfull \hbox (15.33379pt too wide) in paragraph at lines 39--40
-\T1/ptm/m/n/12 CUY-KEN-DALL, 1992; TOTH; BRATH; MON-TA-NARI, 2000; PAR-TAL; CI-
-GI-ZO-GLU; KAHYA,
- []
-
-) (./capitulo_2/capitulo_2.tex [20]
+] [17] [18] [19] [20] [21] [22]) (./capitulo_2/capitulo_2.tex [23]
 Cap\'{\i }tulo 2.
+
+Overfull \hbox (14.38293pt too wide) in paragraph at lines 21--37
+ [] 
+ []
+
+[24
+
+]
 File: capitulo_2/w_s_location.eps Graphic file (type eps)
-<capitulo_2/w_s_location.eps> [21
+ <capitulo_2/w_s_location.eps> [25] [26] [27]
+Overfull \hbox (12.90926pt too wide) in paragraph at lines 103--104
+\T1/phv/m/n/12 one is the avai-la-bi-lity of me-te-o-ro-lo-gi-cal data, com-ple
+x methods such as Pen-man^^UMonteith
+ []
 
-] [22] [23] [24] [25]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[26]
+[28] [29] [30] [31]
 File: capitulo_2/diagram_ann.eps Graphic file (type eps)
- <capitulo_2/diagram_ann.eps> [27] [28] [29]
+ <capitulo_2/diagram_ann.eps> [32] [33] [34] [35]
 File: capitulo_2/time_steps.eps Graphic file (type eps)
- <capitulo_2/time_steps.eps>
-[30]) (./capitulo_3/capitulo_3.tex [31]
+
+<capitulo_2/time_steps.eps> [36]) (./capitulo_3/capitulo_3.tex [37]
 Cap\'{\i }tulo 3.
 File: capitulo_3/campo_moral_normal.eps Graphic file (type eps)
 <capitulo_3/campo_moral_normal.eps>
 File: capitulo_3/jaguaruana_normal.eps Graphic file (type eps)
  <capitulo_3/jaguaruana_normal.eps>
-Overfull \hbox (7.28467pt too wide) in paragraph at lines 11--13
+Overfull \hbox (20.12561pt too wide) in paragraph at lines 11--13
 [][][] 
  []
 
-[32
+[38
 
 ]
 File: capitulo_3/estimate_accuracy_2.eps Graphic file (type eps)
  <capitulo_3/estimate_accuracy_2.eps>
 File: capitulo_3/forecasting_accuracy2.eps Graphic file (type eps)
 
-<capitulo_3/forecasting_accuracy2.eps> [33]
+<capitulo_3/forecasting_accuracy2.eps>
+Overfull \hbox (7.48462pt too wide) in paragraph at lines 25--27
+ [][][] 
+ []
+
+[39] [40]
 File: capitulo_3/general_table.eps Graphic file (type eps)
  <capitulo_3/general_table.eps>
-File: capitulo_3/continentality_effect.eps Graphic file (type eps)
+Overfull \hbox (9.99084pt too wide) in paragraph at lines 47--49
+ [][] 
+ []
 
-<capitulo_3/continentality_effect.eps> [34]
+[41]
+File: capitulo_3/continentality_effect.eps Graphic file (type eps)
+ <capitulo_3/continentality_effect.eps>
 File: capitulo_3/topographic_effect.eps Graphic file (type eps)
 
-<capitulo_3/topographic_effect.eps> [35]
+<capitulo_3/topographic_effect.eps> [42] [43]
 File: capitulo_3/precipitation_accuracy.eps Graphic file (type eps)
 
-<capitulo_3/precipitation_accuracy.eps> [36]) (./capitulo_4/capitulo_4.tex
-[37]
+<capitulo_3/precipitation_accuracy.eps> [44]) (./capitulo_4/capitulo_4.tex
+[45]
 Cap\'{\i }tulo 4.
 ) (/Users/joaotrevizoliesteves/Desktop/mestrado_joao/.texpadtmp/modelo.bbl
-[38
+[46
 
-] [39
+] [47
 
-] [40] [41] [42]) [43]
+] [48] [49] [50] [51]) [52]
 (/Users/joaotrevizoliesteves/Desktop/mestrado_joao/.texpadtmp/modelo.ind)
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
@@ -1137,17 +1156,21 @@ Cap\'{\i }tulo 4.
 +-------------------------------------------------------------------+
 (/Users/joaotrevizoliesteves/Desktop/mestrado_joao/.texpadtmp/modelo.aux)
 
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.0pt have occurred.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7312 strings out of 492996
- 106715 string characters out of 6132730
- 186912 words of memory out of 5000000
- 10558 multiletter control sequences out of 15000+600000
- 47179 words of font info for 86 fonts, out of 8000000 for 9000
+ 7331 strings out of 492996
+ 107069 string characters out of 6132730
+ 186942 words of memory out of 5000000
+ 10579 multiletter control sequences out of 15000+600000
+ 44122 words of font info for 82 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 36i,12n,41p,1872b,437s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,12n,41p,1872b,418s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /Users/joaotrevizoliesteves/Desktop/mestrado_joao/.texpadtmp/
-modelo.dvi (40 pages, 111516 bytes).
+modelo.dvi (51 pages, 120560 bytes).
