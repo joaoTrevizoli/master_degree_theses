@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=latex 2017.8.20)  24 OCT 2018 23:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=latex 2017.8.20)  25 OCT 2018 13:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -945,75 +945,69 @@ LaTeX Info: Redefining \selectfont on input line 126.
 \RaggedRightParindent=\skip120
 \JustifyingParindent=\skip121
 ) (./capa/capa.tex
-File: LogoUNESP.eps Graphic file (type eps)
- <LogoUNESP.eps>
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 8.
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 8.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 9.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 9.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 8.
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 9.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 8.
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 9.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 8.
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 9.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 8.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 9.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 8.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 9.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <13> not available
-(Font)              size <12> substituted on input line 8.
+(Font)              size <12> substituted on input line 9.
 
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 19.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
-File: LogoFundo.eps Graphic file (type eps)
-<LogoFundo.eps> [1
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
+[1
 
-]) (./rosto/folharosto.tex) (./aprovacao/aprovacao.tex
-File: LogoFundo.eps Graphic file (type eps)
-
-<LogoFundo.eps> [1
-
-] [2]) (./dedicatoria/dedicatoria.tex
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 18.
- [3
-
-
+]) (./rosto/folharosto.tex) (./aprovacao/aprovacao.tex [1
 
 ])
-(./agradecimentos/agradecimento.tex
+(./dedicatoria/dedicatoria.tex
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 18.
+ [2
+
+
+
+]) (./agradecimentos/agradecimento.tex
 LaTeX Font Info:    Try loading font information for OMS+phv on input line 8.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsphv.fd
@@ -1022,7 +1016,7 @@ File: omsphv.fd
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 8.
 )
-(./epigrafe/epigrafe.tex [4
+(./epigrafe/epigrafe.tex [3
 
 
 ]
@@ -1030,9 +1024,9 @@ LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <12> not available
 (Font)              Font shape `T1/phv/b/it' tried instead on input line 11.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <12> not available
 (Font)              Font shape `T1/phv/b/sl' tried instead on input line 11.
-) (./abstract/abstract.tex [5
+) (./abstract/abstract.tex [4
 
-] [6
+] [5
 
 
 ])
@@ -1041,7 +1035,7 @@ LaTeX Font Info:    Font shape `T1/phv/b/it' in size <12> not available
 \openout5 = `modelo.lof'.
 
 
-[7
+[6
 
 ] (/Users/joaotrevizoliesteves/Desktop/mestrado_joao/.texpadtmp/modelo.lot
 Overfull \hbox (1.81558pt too wide) in paragraph at lines 2--2
@@ -1053,28 +1047,24 @@ n-ven-ti-o-nal we-
 \tf@lot=\write6
 \openout6 = `modelo.lot'.
 
- (./siglas/listadesiglas.tex [8
+ (./siglas/listadesiglas.tex [7
 
 ]
-Overfull \hbox (9.72775pt too wide) in paragraph at lines 10--40
+Overfull \hbox (9.72775pt too wide) in paragraph at lines 10--39
 [] 
  []
 
-) (./simbolos/simbolos.tex [9
+) (./simbolos/simbolos.tex [8
 
-] [10
+]) [9
 
-] [11])
-Overfull \hbox (1.45299pt too wide) in paragraph at lines 72--336
-[]  
- []
-
-[12] (/Users/joaotrevizoliesteves/Desktop/mestrado_joao/.texpadtmp/modelo.toc)
+]
+(/Users/joaotrevizoliesteves/Desktop/mestrado_joao/.texpadtmp/modelo.toc)
 \tf@toc=\write7
 \openout7 = `modelo.toc'.
 
 
-[13
+[10
 
 ] (./capitulo_1/capitulo_1.tex
 Cap\'{\i }tulo 1.
@@ -1169,13 +1159,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7331 strings out of 492996
- 107069 string characters out of 6132730
- 186942 words of memory out of 5000000
- 10579 multiletter control sequences out of 15000+600000
+ 7325 strings out of 492996
+ 106985 string characters out of 6132730
+ 184942 words of memory out of 5000000
+ 10575 multiletter control sequences out of 15000+600000
  44122 words of font info for 82 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  36i,12n,41p,1872b,418s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /Users/joaotrevizoliesteves/Desktop/mestrado_joao/.texpadtmp/
-modelo.dvi (51 pages, 120440 bytes).
+modelo.dvi (48 pages, 114224 bytes).
