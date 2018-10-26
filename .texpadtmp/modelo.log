@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=latex 2017.8.20)  25 OCT 2018 14:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=latex 2017.8.20)  26 OCT 2018 09:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1071,7 +1071,13 @@ Cap\'{\i }tulo 1.
 [16
 
 
-] [17] [18] [19] [20] [21] [22]) (./capitulo_2/capitulo_2.tex [23]
+] [17] [18] [19] [20] [21]
+Overfull \hbox (20.63445pt too wide) in paragraph at lines 40--41
+\T1/phv/m/n/12 DINI, 2008; RA-MÍ-REZ; FER-REIRA; VE-LHO, 2006; LUK; BALL; SHARM
+A, 2000; FRENCH;
+ []
+
+[22]) (./capitulo_2/capitulo_2.tex [23]
 Cap\'{\i }tulo 2.
 
 Overfull \hbox (14.38293pt too wide) in paragraph at lines 21--37
@@ -1168,4 +1174,4 @@ Here is how much of TeX's memory you used:
  36i,12n,41p,1872b,418s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /Users/joaotrevizoliesteves/Desktop/mestrado_joao/.texpadtmp/
-modelo.dvi (48 pages, 114400 bytes).
+modelo.dvi (48 pages, 114392 bytes).
