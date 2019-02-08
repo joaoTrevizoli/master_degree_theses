@@ -40,7 +40,7 @@ The CWS were chosen based on geographical proximity of important agricultural ce
 
 \begin{figure}[htb!]
 \begin{center}
- \includegraphics[scale=0.5]{capitulo_2/w_s_location.eps}
+ \includegraphics[scale=0.9]{capitulo_2/w_s_location.eps}
  \caption{Weather stations locations}
  \label{img:figure1}
 \end{center}
@@ -63,7 +63,7 @@ The ANN implementation chosen was the feed-forward multilayer perceptron with on
 y = \frac{1}{1 + e^-x}
 \end{equation}
 
-Traditional backpropagation training algorithms are often too slow for practical problems. The performance of these algorithms are improved by allowing the learning rate to change during the training process and keep the learning step size as large as possible, while maintaining learning stable. Gradient search based technics such as backpropagation tend to get trapped at local minima, with enough gain (momentum) it can escape these local minima \cite{montana1989training}. To keep the algorithm responsive to the complexity of the local error surface while getting closer to the local minima, it was adopted the backpropagation with adaptive learning rate and momentum (GDX). The error function used in the ANN training processes was the mean squared error (MSE) represented by the following equation:
+Traditional backpropagation training algorithms are often too slow for practical problems. The performance of these algorithms are improved by allowing the learning rate to change during the training process and keep the learning step size as large as possible, while maintaining learning stable. Gradient search based technics such as backpropagation tend to get trapped at local minima, with enough gain (momentum) it can escape these local minima \cite{montana1989training}. To keep the algorithm responsive to the complexity of the local error surface while getting closer to the local minima, it was adopted the pre. The error function used in the ANN training processes was the mean squared error (MSE) represented by the following equation:
 \begin{equation}
 \label{eq:solve2}
 MSE = \frac{1}{n} \sum\limits_{i=1}^n (\hat{Y}i - Yi)^2
@@ -94,7 +94,7 @@ In the validation stage of these ANNs, the variance ($\sigma$) between the predi
 \section{Weather Indexes Estimation}
 \label{sec:linux}
 
-The proposed model uses as input data based on estimated meteorological indexes which were the soil water content (SWC) in \textit{mm}, the daylight length in \textit{hours} and the extraterrestrial irradiation energy ($H_o$) in \textit{mm}. These indexes were chosen because of the inertia or carryover processes that they naturally have, these indexes are persistent and tends to have slightly changes from one observation to another unless some event such as precipitation happens. The theory is that the nested information which these indexes inherently carry are a important source of information for the ANN and an positive sign of the rainfall possibility.
+The proposed model uses as input data based on estimated meteorological indexes which were the soil water content (SWC) in \textit{mm}, the daylight length in \textit{hours} and the extraterrestrial irradiation energy ($H_o$) in \textit{mm}. These indexes were chosen because of the inertia or carryover processes that they naturally have, these indexes are persistent and tends to have slightly changes from one observation to another unless some event such as precipitation happens. The nested information which these indexes inherently carry are a important source of information for the ANN and an positive sign of the rainfall possibility.
 
 To determine the SWC it is necessary to estimate the water balance. This is an practical method developed to quantify the water allocation among watersheds, which calculates its inputs and outputs sequentially, it is usually applied monthly but can be used for monitoring the soil water storage in near-real time \cite{thornthwaite1957instructions}, for the research it was used a daily scale.
 
@@ -104,7 +104,7 @@ The PET values are usually estimated empirically by measured elements in weather
 
 The Thornthwaite method \cite{thornthwaite1948approach} was the first and widely know to estimate the PET value. It is a empirical method with the drawback of relying on the normal mean air temperature which is not aways available and to be created for humid regions. On 1971 Camargo\cite{camargo1971paulo} proposed an equation with practically the same results of Thorthwaite original work, without the drawback of needing normal air temperature and has the advantage of computing the extraterrestrial solar irradiation this method was analytically developed specifically for Brazilian conditions. This was the method adopted in this study, follows the Camargo equation:
 
-\begin{equation}
+-\begin{equation}
 \label{eq:solve9}
 PET = 0.01 \,\, H_o \,\, Tn \,\, ND
 \end{equation}
@@ -112,12 +112,12 @@ where $ND$ is the number of days contained in the desired period, $Tn$ is the pe
 irradiation energy falling on a plane horizontal to the earths surface throughout a whole day and is represented by the Eq. \ref{eq:solve10}:
 \begin{equation}
 \label{eq:solve10}
-H_o = 37.6(1 + 0.033\cos(DOY\frac{360}{365}))[(\frac{\pi}{180^o}){N} \sin\phi \, \sin\delta + \cos\phi \, \cos\delta \, \sin P]
+H_o = 37.6(1 + 0.033\cos(DOY\frac{360}{365}))[(\frac{\pi}{180^o}){N} \sin\phi \, \sin\delta + \cos\phi \, \cos\delta \, \sin ST]
 \end{equation}
 
 In the $H_o$ equation \textit{DOY} represents the day of year, $\phi$ is the geographic latitude in \textit{degrees}, $\delta$ is solar declination calculated in \textit{degrees} 
-based on Coopers\cite{cooper1969absorption} equation (Eq.\ref{eq:solve13}) and
-\textit{N} is the photoperiod calculated in \textit{hours} by the equation \ref{eq:solve14}. The soil-moisture storage capacities was standardised in 100 \textit{mm} across all locations to simplify the calculus routine.
+based on Coopers\cite{cooper1969absorption} equation (Eq.\ref{eq:solve13}),
+\textit{N} is the photoperiod calculated in \textit{hours} by the equation \ref{eq:solve14} and \textit{ST} is the sunrise time by the equation \ref{eq:solve15}. The soil-moisture storage capacities was standardised in 100 \textit{mm} across all locations to simplify the calculus routine.
 
 \begin{equation}
  \label{eq:solve13}
@@ -129,16 +129,21 @@ based on Coopers\cite{cooper1969absorption} equation (Eq.\ref{eq:solve13}) and
 N = 2 \, \frac{\arccos[-\tan\phi \, \tan\delta]}{15^o} 
 \end{equation}
 
+\begin{equation}
+\label{eq:solve15}
+ST = \arccos[-\tan\phi \, \tan\delta]
+\end{equation}
+
 With these estimated indexes, it was generated an new time-series dataset, for each Brazilian location, that were the estimated data used for the forecasting model with the addition of the the Unix time stamp for each day.
 
 \section{Binary Precipitation ANN}
 \label{sec:linux}
 
-Traditionally in the field of modelling in climatology and time series, an auto regressive approach is used to solve the index forecasting problem \cite{rajurkar2002artificial, mishra2018rainfall, ramirez2006linear}. Rainfall is an sparse highly difficult to predict phenomenon that its occurrence depends on a series of complex parameters such as temperature, barometric pressure and wind speed \cite{sumi2012rainfall}. Given the nature this phenomenon these approaches relies on historical data that contains high variance, low bias and in short range period of times a great number of very small volumes or a lack of rainfall events. These characteristics make it difficult for traditional models to converge, which leads to a reduction of their potential performance.
+Traditionally in the field of modelling in climatology and time series, an auto regressive approach is used to solve the index forecasting problem \cite{rajurkar2002artificial, mishra2018rainfall, ramirez2006linear}. Rainfall is an sparse highly difficult to predict phenomenon that its occurrence depends on a series of complex parameters such as temperature, barometric pressure and wind speed \cite{sumi2012rainfall}. Given the nature this phenomenon these approaches relies on historical data that contains high variance, low bias and in short range period of times a great number of very small volumes or a lack of rainfall events. These characteristics make it difficult for traditional models to converge, which leads to a reduction of their potential performance. Precipitation is the most important atmospheric event for human activities, improve its forecastability with new technics is a key to improve agricultural production and its related activities
 
 The input selection is a key component to develop an accurate rainfall forecast model, many theoretical studies established the relationship between climate indices and rainfall.\citeauthor{tularam2010time} (\citeyear{tularam2010time}) showed an strong correlation in trend between rainfall and temperature ranges given the periodic nature of these variables.  \citeauthor{feng2016trend} (\citeyear{feng2016trend}) correlated water balance components such as PET with rainfall occurrence and proposed an annual rainfall ARIMA model with acceptable accuracy. \citeauthor{valipour2016much} (\citeyear{valipour2016much}) developed 3 models, for 4 climate conditions based on precipitation volumes capable of estimate monthly rainfall indices. \citeauthor{medvigy2012trends} (\citeyear{medvigy2012trends}) identified an strong correlation between increments of solar radiation and increases in precipitation variability. Despite the rationality and different exploratory methods on variables selection, studies have been approaching this issue taking in consideration the shortage of available and reliable data.
 
-With this research it was intended forecast the rainfall occurrence in short periods of time with the premise that reducing the variance and rising the bias of the time series could lead to accuracy. To achieve this objective it was firstly determined the ranges of time that the model had to predict, which were from three to seven accumulated days. For each accumulated period it was generated an array containing the time-stamp of the last day of the period, the mean air temperature, the accumulated rainfall, an \textit{boolean} value to determine whether the accumulated precipitation was greater than 5\textit {mm} which is considered the median intensity of a light precipitation \cite{sun2006often}, the mean photoperiod, the soil water content and the average daily $H_o$, these were the final data that were used as inputs for for the ANNs and are represented by the following array representation:
+With this research it was intended forecast the rainfall occurrence in short periods of time with the premise that reducing the variance and rising the bias of the time series could lead to accuracy. To achieve this objective it was firstly determined the ranges of time that the model had to predict, which were from three to seven accumulated days, which is enough time to actions being taken on field. For each accumulated period it was generated an array containing the time-stamp of the last day of the period, the mean air temperature, the accumulated rainfall, an \textit{boolean} value to determine whether the accumulated precipitation was greater than 5\textit {mm} which is considered the median intensity of a light precipitation \cite{sun2006often}, the mean photoperiod, the soil water content and the average daily $H_o$, these were the final data that were used as inputs for for the ANNs and are represented by the following array representation:
 
 \begin{table}[h]
  \caption{Inputs used for the ANN model}
@@ -174,7 +179,7 @@ For each ANN the structure used was the multi-layer perceptron (MLP) feed forwar
 \end{figure}
 The Mathematical structure of the feed forward multilayer perceptron with one output node can be represented by the following equation \cite{luk2000study}:
 \begin{equation}
- \label{eq:solve15}
+ \label{eq:solve16}
  y_1 = S_1(\sum\limits_{j=1}^{Nj} w_j S_2(\sum\limits_{i=1}^{Ni} w_i x_i))
 \end{equation}
 
@@ -196,24 +201,22 @@ f(x)=\begin{cases}
      \end{cases} 
 \end{equation}
 
-Determining the number of neurons in the hidden layer for a time-series problem is not an easy task \cite{zhang1998forecasting}, firstly the hidden layer of each ANN had 200 neurons,
-then it was observed its forecasting accuracy and processing cost, then it was lowered to 50 without noticeable performance lost. With the results this was the number of neurons used and this parameter was not change in any of the ANNs in order to facilitate performance analysis and comparison.
+Determining the number of neurons in the hidden layer for a time-series problem is not an easy task \cite{zhang1998forecasting}. The determination of number if neurons were done through simulations, at first the hidden layer of each ANN were set to 200 neurons, then it was observed its forecasting accuracy and processing cost, then it was lowered in a progressive scale of -1 until 50 neurons were left, without noticeable performance lost. With the results this was the number of neurons used and this parameter was not change in any of the ANNs in order to facilitate performance analysis and comparison.
 
-The back propagation method is a technique used to update the nodes weights in supervised training ANNs. It is consisted of two passes throughout the different layers of the network, a forward pass and a backward pass. In the forward pass all the connection synaptic weights are fixed and a activity patterns is applied to the input nodes, then it propagates layer by layer, node by node producing a output signal as the network response. During the backward pass all the weights are corrected by an error-correction rule, that tries to minimize an error function, it was used the MSE (Eq. \ref{eq:solve2}), this is done by subtracting the actual ANN response by the desired response producing an error signal. All the network weights are backwardly adjusted to make the output closer to the desired one in a statistical sense \cite{dao2002performance}.
+The backpropagation method is a technique used to update the nodes weights in supervised training ANNs. It is consisted of two passes throughout the different layers of the network, a forward pass and a backward pass. In the forward pass all the connection synaptic weights are fixed and a activity patterns is applied to the input nodes, then it propagates layer by layer, node by node producing a output signal as the network response. During the backward pass all the weights are corrected by an error-correction rule, that tries to minimize an error function, it was used the MSE (Eq. \ref{eq:solve2}), this is done by subtracting the actual ANN response by the desired response producing an error signal. All the network weights are backwardly adjusted to make the output closer to the desired one in a statistical sense \cite{dao2002performance}.
 
 At the first learning epoch of the ANNs the first weights has to be randomly distributed within the $[0, 1]$ limits, this first random distribution was a problem. The computer is a deterministic machine and to generate random numbers by a deterministic machine a pseudo random number generator is needed. A random generator is an algorithm that produces numbers or vectors that its properties approximates of truly random numbers, this algorithm usually has a seed parameter that uses the computer clock, which can lead to an normal distribution of the random numbers, for this reason sometimes it was required to run the training processes several times. After the first weights distribution, the equation that defines the weights adjustment for each iteration $w_{n + 1}$ of the algorithm was:
 
 \begin{equation}
- \label{eq:solve16}
+ \label{eq:solve17}
 w_{n+1} = w_n - \alpha_{n + 1} \,\, g_n + \mu \,\, w_{k - 1}
 \end{equation}
 
-where $g_n$ is the gradient of the error to the weight vector, $\alpha$ is the learning rate and $\mu$ is the momentum constant. The momentum term is used to avoid the weight adjustment to be
-stuck in the local minima and reduce the algorithm instability \cite{haykin2004comprehensive}, the $\mu$ value must be variate between 0 and 1 but it is recommended to use values between 0.4 and 0.9 \cite{wythoff1993backpropagation}.
+where $g_n$ is the gradient of the error to the weight vector, $\alpha$ is the learning rate and $\mu$ is the momentum constant. The momentum term is used to avoid the weight adjustment to be stuck in the local minima and reduce the algorithm instability \cite{haykin2004comprehensive}, the $\mu$ value must be variate between 0 and 1 but it is recommended to use values between 0.4 and 0.9 \cite{wythoff1993backpropagation}.
 An low $\mu$ value increases the risk to the ANN get stuck in the local minima and a excessively high value might make the model surpass the problem solution, it was used for all the ANNs an value of 0.9.
 
-Other particularity of the model, despite the back propagation and the $\mu$ constant, was the use of variable learning rate, the learning rate is a parameter used in the back propagation stage to define the conversion speed to the minimum solution. Setting the \textit{lr} too high the algorithm would converge too fast making it unstable, setting too low would make it to take too long to find the minimum solution or even never find it. To optimize the forecasting problem, the ANN uses an larger $\alpha$ when it 
-is far from the solution and progressively decreases it while it gets closer by the use of the Eq. \ref{eq:solve17} and Eq. \ref{eq:solve18}.
+Other particularity of the model, despite the backpropagation and the $\mu$ constant, was the use of variable learning rate, the learning rate is a parameter used in the back propagation stage to define the conversion speed to the minimum solution. Setting the \textit{lr} too high the algorithm would converge too fast making it unstable, setting too low would make it to take too long to find the minimum solution or even never find it. To optimize the forecasting problem, the ANN uses an larger $\alpha$ when it 
+is far from the solution and progressively decreases it while it gets closer, with variable \textit{lr} the number of training epochs can be set to a high value with virtually no impact in the generalisation ability of the ANN which solves the problem of determining the number of epochs. Variable \textit{lr} is described by the use of the Eq. \ref{eq:solve17} and Eq. \ref{eq:solve18}.
 
 \begin{equation}
 \label{eq:solve17}
@@ -221,7 +224,7 @@ is far from the solution and progressively decreases it while it gets closer by 
 \end{equation}
 
 \begin{equation}
-\label{eq:solve18}ht
+\label{eq:solve18}
 \beta = \begin{cases}
          0.7 & \text{$if$ $\frac{error_n}{error_{n-1}}$ $>$ 1.04}\\
          1.05 & \text{$if$ $\frac{error_n}{error_{n-1}}$ $<$ 1.04}

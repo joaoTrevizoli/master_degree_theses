@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=latex 2017.8.20)  26 OCT 2018 09:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=latex 2017.8.20)  8 FEB 2019 16:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -896,6 +896,9 @@ LaTeX Warning: Label `sec:linux' multiply defined.
 
 LaTeX Warning: Label `sec:linux' multiply defined.
 
+
+LaTeX Warning: Label `eq:solve17' multiply defined.
+
 )
 \openout1 = `modelo.aux'.
 
@@ -1021,9 +1024,9 @@ LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <12> not available
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <12> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 11.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 10.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <12> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 11.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 10.
 ) (./abstract/abstract.tex [4
 
 ] [5
@@ -1088,23 +1091,29 @@ Overfull \hbox (14.38293pt too wide) in paragraph at lines 21--37
 
 ]
 File: capitulo_2/w_s_location.eps Graphic file (type eps)
- <capitulo_2/w_s_location.eps> [25] [26] [27]
+ <capitulo_2/w_s_location.eps>
+Overfull \hbox (65.09636pt too wide) in paragraph at lines 43--44
+ [] 
+ []
+
+[25] [26] [27] [28]
 Overfull \hbox (12.90926pt too wide) in paragraph at lines 103--104
 \T1/phv/m/n/12 one is the avai-la-bi-lity of me-te-o-ro-lo-gi-cal data, com-ple
 x methods such as Pen-man^^UMonteith
  []
 
-[28] [29] [30] [31]
-Overfull \hbox (2.0069pt too wide) in paragraph at lines 167--168
+[29] [30] [31]
+Overfull \hbox (2.0069pt too wide) in paragraph at lines 172--173
 []\T1/phv/m/n/12 For each ANN the struc-ture used was the multi-layer per-cep-t
 ron (MLP) feed forward,
  []
 
+[32]
 File: capitulo_2/diagram_ann.eps Graphic file (type eps)
-<capitulo_2/diagram_ann.eps> [32] [33] [34]
+ <capitulo_2/diagram_ann.eps> [33] [34] [35]
 File: capitulo_2/time_steps.eps Graphic file (type eps)
  <capitulo_2/time_steps.eps>
-[35] [36]) (./capitulo_3/capitulo_3.tex [37]
+[36]) (./capitulo_3/capitulo_3.tex [37]
 Cap\'{\i }tulo 3.
 File: capitulo_3/campo_moral_normal.eps Graphic file (type eps)
 <capitulo_3/campo_moral_normal.eps>
@@ -1171,7 +1180,7 @@ Here is how much of TeX's memory you used:
  10575 multiletter control sequences out of 15000+600000
  44122 words of font info for 82 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 36i,12n,41p,1872b,418s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,12n,41p,1854b,418s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /Users/joaotrevizoliesteves/Desktop/mestrado_joao/.texpadtmp/
-modelo.dvi (48 pages, 114392 bytes).
+modelo.dvi (48 pages, 115720 bytes).
